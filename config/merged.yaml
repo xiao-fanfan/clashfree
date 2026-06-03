@@ -1,0 +1,51 @@
+mixed-port: 7890
+allow-lan: true
+mode: rule
+log-level: info
+dns:
+  enable: true
+  listen: 0.0.0.0:1053
+  ipv6: false
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  default-nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+  nameserver:
+    - https://dns.alidns.com/dns-query
+    - https://doh.pub/dns-query
+  fallback:
+    - https://1.1.1.1/dns-query
+    - https://8.8.8.8/dns-query
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+proxies: []
+proxy-groups:
+  - name: AUTO
+    type: url-test
+    proxies:
+      - DIRECT
+    url: https://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 80
+  - name: PROXY
+    type: select
+    proxies:
+      - AUTO
+      - DIRECT
+  - name: GLOBAL
+    type: select
+    proxies:
+      - AUTO
+      - DIRECT
+rules:
+  - DOMAIN-SUFFIX,local,DIRECT
+  - DOMAIN-SUFFIX,localhost,DIRECT
+  - IP-CIDR,127.0.0.0/8,DIRECT
+  - IP-CIDR,10.0.0.0/8,DIRECT
+  - IP-CIDR,172.16.0.0/12,DIRECT
+  - IP-CIDR,192.168.0.0/16,DIRECT
+  - DOMAIN-SUFFIX,cn,DIRECT
+  - GEOIP,CN,DIRECT
+  - MATCH,PROXY
