@@ -54,6 +54,13 @@ function toInt(value) {
   return Number.isFinite(number) ? number : 0;
 }
 
+function renameProxiesSequentially(proxies) {
+  return proxies.map((proxy, index) => ({
+    ...proxy,
+    name: `节点-${String(index + 1).padStart(3, '0')}`,
+  }));
+}
+
 function parseVmess(line) {
   const decoded = safeBase64Decode(line.replace('vmess://', ''));
   if (!decoded) return null;
@@ -302,7 +309,7 @@ function encodeSubscription(proxies) {
 }
 
 function buildClashYaml(proxies) {
-  const cleanProxies = proxies.map(stripRuntimeFields);
+  const cleanProxies = renameProxiesSequentially(proxies.map(stripRuntimeFields));
   const names = cleanProxies.map((item) => item.name);
   const config = {
     'mixed-port': 7890,
