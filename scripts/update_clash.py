@@ -18,7 +18,6 @@ SOURCES = [
     "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml",
 ]
 OUTPUT = Path(__file__).resolve().parents[1] / "config" / "merged.yaml"
-RESERVED_NAMES = {"AUTO", "PROXY", "GLOBAL", "DIRECT"}
 
 
 def safe_b64decode(value: str) -> str | None:
@@ -46,14 +45,13 @@ def clean_name(value: Any, fallback: str) -> str:
     return re.sub(r"[\r\n\t]+", " ", text)[:120]
 
 
-def unique_name(base: str, used_names: set[str]) -> str:
-    name = base
-    suffix = 1
-    while name in used_names:
-        name = f"{base}-{suffix}"
-        suffix += 1
-    used_names.add(name)
-    return name
+def rename_proxies_sequentially(proxies: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    renamed: list[dict[str, Any]] = []
+    for index, proxy in enumerate(proxies, 1):
+        item = dict(proxy)
+        item["name"] = f"节点-{index:03d}"
+        renamed.append(item)
+    return renamed
 
 
 def parse_vmess(uri: str) -> dict[str, Any] | None:
@@ -218,9 +216,8 @@ def fetch(url: str) -> str:
 
 def dedupe(proxies: list[dict[str, Any]]) -> list[dict[str, Any]]:
     seen: set[tuple[str, int]] = set()
-    names: set[str] = set(RESERVED_NAMES)
     result: list[dict[str, Any]] = []
-    for index, proxy in enumerate(proxies, 1):
+    for proxy in proxies:
         server, port, ptype = str(proxy.get("server") or "").strip(), as_int(proxy.get("port")), proxy.get("type")
         if not server or not port or not ptype:
             continue
@@ -230,8 +227,6 @@ def dedupe(proxies: list[dict[str, Any]]) -> list[dict[str, Any]]:
         seen.add(key)
         item = dict(proxy)
         item["server"], item["port"] = server, port
-        base = clean_name(item.get("name"), f"{ptype}-{server}:{port}-{index}")
-        item["name"] = unique_name(base, names)
         result.append(item)
     return result
 
@@ -276,7 +271,7 @@ def build_config(proxies: list[dict[str, Any]]) -> dict[str, Any]:
 
 
 def main() -> int:
-    proxies = dedupe([proxy for url in SOURCES for proxy in parse_content(fetch(url))])
+    proxies = rename_proxies_sequentially(dedupe([proxy for url in SOURCES for proxy in parse_content(fetch(url))]))
     config = build_config(proxies)
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT.write_text(yaml.safe_dump(config, allow_unicode=True, sort_keys=False), encoding="utf-8")
