@@ -18,6 +18,7 @@ SOURCES = [
     "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml",
 ]
 OUTPUT = Path(__file__).resolve().parents[1] / "config" / "merged.yaml"
+RESERVED_NAMES = {"AUTO", "PROXY", "GLOBAL", "DIRECT"}
 
 
 def safe_b64decode(value: str) -> str | None:
@@ -43,6 +44,16 @@ def as_int(value: Any) -> int:
 def clean_name(value: Any, fallback: str) -> str:
     text = unquote(str(value or "").strip()) or fallback
     return re.sub(r"[\r\n\t]+", " ", text)[:120]
+
+
+def unique_name(base: str, used_names: set[str]) -> str:
+    name = base
+    suffix = 1
+    while name in used_names:
+        name = f"{base}-{suffix}"
+        suffix += 1
+    used_names.add(name)
+    return name
 
 
 def parse_vmess(uri: str) -> dict[str, Any] | None:
@@ -207,7 +218,7 @@ def fetch(url: str) -> str:
 
 def dedupe(proxies: list[dict[str, Any]]) -> list[dict[str, Any]]:
     seen: set[tuple[str, int]] = set()
-    names: set[str] = set()
+    names: set[str] = set(RESERVED_NAMES)
     result: list[dict[str, Any]] = []
     for index, proxy in enumerate(proxies, 1):
         server, port, ptype = str(proxy.get("server") or "").strip(), as_int(proxy.get("port")), proxy.get("type")
@@ -220,12 +231,7 @@ def dedupe(proxies: list[dict[str, Any]]) -> list[dict[str, Any]]:
         item = dict(proxy)
         item["server"], item["port"] = server, port
         base = clean_name(item.get("name"), f"{ptype}-{server}:{port}-{index}")
-        name, suffix = base, 2
-        while name in names:
-            name = f"{base} {suffix}"
-            suffix += 1
-        item["name"] = name
-        names.add(name)
+        item["name"] = unique_name(base, names)
         result.append(item)
     return result
 
