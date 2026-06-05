@@ -21,14 +21,14 @@ dns:
     geoip: true
     geoip-code: CN
 proxies:
-- name: github.com/freefq - 俄罗斯  1
+- name: 节点-001
   type: ss
   server: 185.242.86.156
   port: 54170
   cipher: chacha20-ietf-poly1305
   password: 36ZCHeabUSfKjfQEvJ4HDV
   udp: true
-- name: github.com/freefq - 印度  2
+- name: 节点-002
   type: vmess
   server: 202.78.162.5
   port: 443
@@ -42,7 +42,7 @@ proxies:
     path: /@forwardv2ray
     headers:
       Host: irsoft.sytes.net
-- name: github.com/freefq - 美国CloudFlare公司CDN节点 4
+- name: 节点-003
   type: vmess
   server: www.darkroom.lol
   port: 8080
@@ -55,14 +55,14 @@ proxies:
     path: /
     headers:
       Host: www.darkroom.lol
-- name: github.com/freefq - 波兰  5
+- name: 节点-004
   type: ss
   server: 193.243.147.128
   port: 40368
   cipher: aes-256-gcm
   password: 7BcLdsO1WweoGD0X
   udp: true
-- name: github.com/freefq - 美国CloudFlare公司CDN节点 6
+- name: 节点-005
   type: vmess
   server: server31.beheshtbaneh.com
   port: 8880
@@ -75,7 +75,7 @@ proxies:
     path: /
     headers:
       Host: server31.beheshtbaneh.com
-- name: github.com/freefq - 广东省移动 7
+- name: 节点-006
   type: vmess
   server: data-us-v1.shwjfkw.cn
   port: 20401
@@ -88,14 +88,14 @@ proxies:
     path: /debian
     headers:
       Host: data-us-v1.shwjfkw.cn
-- name: github.com/freefq - 广东省江门市移动 8
+- name: 节点-007
   type: ss
   server: service.ouluyun9803.com
   port: 20003
   cipher: chacha20-ietf-poly1305
   password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2
   udp: true
-- name: github.com/freefq - 美国CloudFlare公司CDN节点 9
+- name: 节点-008
   type: vmess
   server: 104.21.82.183
   port: 8880
@@ -108,21 +108,21 @@ proxies:
     path: /
     headers:
       Host: server26.beheshtbaneh.com
-- name: github.com/freefq - 广东省江门市移动 11
+- name: 节点-009
   type: ss
   server: service.ouluyun9803.com
   port: 26667
   cipher: chacha20-ietf-poly1305
   password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2
   udp: true
-- name: github.com/freefq - 广东省江门市移动 12
+- name: 节点-010
   type: ss
   server: service.ouluyun9803.com
   port: 20005
   cipher: chacha20-ietf-poly1305
   password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2
   udp: true
-- name: github.com/freefq - 美国Fastly全球Anycast节点 13
+- name: 节点-011
   type: vmess
   server: gov.uk
   port: 443
@@ -136,7 +136,7 @@ proxies:
     path: /77848824
     headers:
       Host: zheshiscp.com
-- name: github.com/freefq - 美国CloudFlare节点 14
+- name: 节点-012
   type: vmess
   server: server32.beheshtbaneh.com
   port: 8880
@@ -151,53 +151,335 @@ proxies:
       Host: server32.beheshtbaneh.com
 - alterId: 0
   cipher: auto
-  name: 敏感时期，更新暂停
+  name: 节点-013
   network: tcp
-  port: 1
-  server: 0.0.0.0
-  servername: web.51.la
+  port: 80
+  server: 127.0.0.53
   tls: false
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
-  name: 如有需要，自行搭建
+  name: 节点-014
   network: tcp
-  port: 2
-  server: 0.0.0.0
-  servername: web.51.la
+  port: 81
+  server: 127.0.0.53
   tls: false
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
-  name: 庆祝中华人民共和国成立76周年！
+  name: 节点-015
   network: tcp
-  port: 3
-  server: 0.0.0.0
-  servername: web.51.la
+  port: 82
+  server: 127.0.0.53
   tls: false
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  name: 节点-016
+  network: tcp
+  port: 83
+  server: 127.0.0.53
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  name: 节点-017
+  network: tcp
+  port: 84
+  server: 127.0.0.53
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  name: 节点-018
+  network: tcp
+  port: 85
+  server: 127.0.0.53
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  name: 节点-019
+  network: tcp
+  port: 86
+  server: 127.0.0.53
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  name: 节点-020
+  network: tcp
+  port: 87
+  server: 127.0.0.53
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  name: 节点-021
+  network: tcp
+  port: 88
+  server: 127.0.0.53
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  name: 节点-022
+  network: tcp
+  port: 89
+  server: 127.0.0.53
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: aes-256-cfb
+  name: 节点-023
+  password: amazonskr05
+  port: 443
+  server: 63.180.254.10
+  type: ss
+- alterId: 2
+  cipher: auto
+  name: 节点-024
+  port: 30807
+  server: v10.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 节点-025
+  network: tcp
+  password: d84665c37878196ecf983cf6910e3b44
+  port: 2008
+  server: 16.162.93.34
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 节点-026
+  network: tcp
+  password: BxceQaOe
+  port: 40748
+  server: 95.40.84.43
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: 节点-027
+  network: tcp
+  password: BxceQaOe
+  port: 50712
+  server: 18.183.163.141
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: 节点-028
+  network: tcp
+  password: BxceQaOe
+  port: 24370
+  server: 95.40.84.43
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: 节点-029
+  network: tcp
+  password: d84665c37878196ecf983cf6910e3b44
+  port: 31351
+  server: 16.162.93.34
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 节点-030
+  network: tcp
+  password: d84665c37878196ecf983cf6910e3b44
+  port: 2511
+  server: 16.162.32.32
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 节点-031
+  network: tcp
+  password: d84665c37878196ecf983cf6910e3b44
+  port: 48402
+  server: 16.162.93.34
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 节点-032
+  network: tcp
+  password: d84665c37878196ecf983cf6910e3b44
+  port: 2511
+  server: 18.167.173.1
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 节点-033
+  network: tcp
+  password: BxceQaOe
+  port: 42710
+  server: 54.46.44.219
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: 节点-034
+  network: tcp
+  password: d84665c37878196ecf983cf6910e3b44
+  port: 5224
+  server: 16.162.93.34
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 节点-035
+  network: tcp
+  password: BxceQaOe
+  port: 2520
+  server: 95.40.84.43
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 节点-036
+  port: 180
+  server: 82.198.246.250
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- cipher: aes-128-gcm
+  name: 节点-037
+  password: phizo046s4oqsm33sfvm
+  port: 13265
+  server: 86.106.84.198
+  type: ss
+  udp: true
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 节点-038
+  network: tcp
+  port: 180
+  server: 82.198.246.37
+  servername: <nil>
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  xudp: true
+- name: 节点-039
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 48697
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: gh.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: 节点-040
+  password: amazonskr05
+  port: 443
+  server: 15.223.63.40
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- cipher: aes-256-cfb
+  name: 节点-041
+  password: amazonskr05
+  port: 443
+  server: 18.159.210.129
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- cipher: aes-128-gcm
+  name: 节点-042
+  password: 3px0wmx0e81145g568ga
+  port: 10880
+  server: 69.164.240.86
+  type: ss
+  udp: true
+- name: 节点-043
+  network: tcp
+  password: LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu
+  port: 443
+  server: ch-2.bexum.fun
+  skip-cert-verify: false
+  sni: ch-2.bexum.fun
+  type: trojan
+  udp: true
+- name: 节点-044
+  network: tcp
+  password: LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu
+  port: 5443
+  server: kz-1.bexum.fun
+  skip-cert-verify: false
+  sni: kz-1.bexum.fun
+  type: trojan
+  udp: true
+- name: 节点-045
+  password: LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu
+  port: 9443
+  server: de-1.hysteria.ltd
+  skip-cert-verify: false
+  sni: de-1.hysteria.ltd
+  type: trojan
+  udp: true
 proxy-groups:
 - name: AUTO
   type: url-test
   proxies:
-  - github.com/freefq - 俄罗斯  1
-  - github.com/freefq - 印度  2
-  - github.com/freefq - 美国CloudFlare公司CDN节点 4
-  - github.com/freefq - 波兰  5
-  - github.com/freefq - 美国CloudFlare公司CDN节点 6
-  - github.com/freefq - 广东省移动 7
-  - github.com/freefq - 广东省江门市移动 8
-  - github.com/freefq - 美国CloudFlare公司CDN节点 9
-  - github.com/freefq - 广东省江门市移动 11
-  - github.com/freefq - 广东省江门市移动 12
-  - github.com/freefq - 美国Fastly全球Anycast节点 13
-  - github.com/freefq - 美国CloudFlare节点 14
-  - 敏感时期，更新暂停
-  - 如有需要，自行搭建
-  - 庆祝中华人民共和国成立76周年！
+  - 节点-001
+  - 节点-002
+  - 节点-003
+  - 节点-004
+  - 节点-005
+  - 节点-006
+  - 节点-007
+  - 节点-008
+  - 节点-009
+  - 节点-010
+  - 节点-011
+  - 节点-012
+  - 节点-013
+  - 节点-014
+  - 节点-015
+  - 节点-016
+  - 节点-017
+  - 节点-018
+  - 节点-019
+  - 节点-020
+  - 节点-021
+  - 节点-022
+  - 节点-023
+  - 节点-024
+  - 节点-025
+  - 节点-026
+  - 节点-027
+  - 节点-028
+  - 节点-029
+  - 节点-030
+  - 节点-031
+  - 节点-032
+  - 节点-033
+  - 节点-034
+  - 节点-035
+  - 节点-036
+  - 节点-037
+  - 节点-038
+  - 节点-039
+  - 节点-040
+  - 节点-041
+  - 节点-042
+  - 节点-043
+  - 节点-044
+  - 节点-045
   url: https://www.gstatic.com/generate_204
   interval: 300
   tolerance: 80
@@ -206,21 +488,51 @@ proxy-groups:
   proxies: &id001
   - AUTO
   - DIRECT
-  - github.com/freefq - 俄罗斯  1
-  - github.com/freefq - 印度  2
-  - github.com/freefq - 美国CloudFlare公司CDN节点 4
-  - github.com/freefq - 波兰  5
-  - github.com/freefq - 美国CloudFlare公司CDN节点 6
-  - github.com/freefq - 广东省移动 7
-  - github.com/freefq - 广东省江门市移动 8
-  - github.com/freefq - 美国CloudFlare公司CDN节点 9
-  - github.com/freefq - 广东省江门市移动 11
-  - github.com/freefq - 广东省江门市移动 12
-  - github.com/freefq - 美国Fastly全球Anycast节点 13
-  - github.com/freefq - 美国CloudFlare节点 14
-  - 敏感时期，更新暂停
-  - 如有需要，自行搭建
-  - 庆祝中华人民共和国成立76周年！
+  - 节点-001
+  - 节点-002
+  - 节点-003
+  - 节点-004
+  - 节点-005
+  - 节点-006
+  - 节点-007
+  - 节点-008
+  - 节点-009
+  - 节点-010
+  - 节点-011
+  - 节点-012
+  - 节点-013
+  - 节点-014
+  - 节点-015
+  - 节点-016
+  - 节点-017
+  - 节点-018
+  - 节点-019
+  - 节点-020
+  - 节点-021
+  - 节点-022
+  - 节点-023
+  - 节点-024
+  - 节点-025
+  - 节点-026
+  - 节点-027
+  - 节点-028
+  - 节点-029
+  - 节点-030
+  - 节点-031
+  - 节点-032
+  - 节点-033
+  - 节点-034
+  - 节点-035
+  - 节点-036
+  - 节点-037
+  - 节点-038
+  - 节点-039
+  - 节点-040
+  - 节点-041
+  - 节点-042
+  - 节点-043
+  - 节点-044
+  - 节点-045
 - name: GLOBAL
   type: select
   proxies: *id001
