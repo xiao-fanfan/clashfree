@@ -256,9 +256,9 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 节点-025
   network: tcp
-  password: e0195c73018d597b1c2f0ea89d8676ae
-  port: 53012
-  server: 35.77.34.38
+  password: 860c3c2c89a1c7515792be1c5295d21e
+  port: 2008
+  server: 43.207.69.202
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -266,83 +266,91 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 11035
-  server: 18.162.50.252
+  server: 18.167.36.144
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 节点-027
   network: tcp
   password: BxceQaOe
-  port: 5408
-  server: 54.65.32.119
+  port: 27167
+  server: 43.199.34.99
   skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
+  sni: t.me%2Fripaojiedian
   type: trojan
 - name: 节点-028
   network: tcp
-  password: e0195c73018d597b1c2f0ea89d8676ae
-  port: 37973
-  server: 43.198.206.201
+  password: BxceQaOe
+  port: 45691
+  server: 18.179.204.16
   skip-cert-verify: true
-  sni: www.nintendogames.net
+  sni: t.me%252Fripaojiedian
   type: trojan
 - name: 节点-029
   network: tcp
-  password: e0195c73018d597b1c2f0ea89d8676ae
-  port: 5701
-  server: 35.77.34.38
+  password: 860c3c2c89a1c7515792be1c5295d21e
+  port: 55973
+  server: 95.40.53.232
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 节点-030
   network: tcp
-  password: e0195c73018d597b1c2f0ea89d8676ae
-  port: 48738
-  server: 43.198.206.201
+  password: 860c3c2c89a1c7515792be1c5295d21e
+  port: 37973
+  server: 18.162.41.225
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 节点-031
   network: tcp
-  password: e0195c73018d597b1c2f0ea89d8676ae
-  port: 17005
-  server: 18.162.190.157
+  password: 860c3c2c89a1c7515792be1c5295d21e
+  port: 29642
+  server: 18.167.20.216
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 节点-032
   network: tcp
-  password: BxceQaOe
-  port: 9149
-  server: 16.162.118.154
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: 节点-033
-  network: tcp
-  password: e0195c73018d597b1c2f0ea89d8676ae
-  port: 49277
-  server: 43.198.206.201
+  password: 860c3c2c89a1c7515792be1c5295d21e
+  port: 6357
+  server: 18.162.41.225
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
+- name: 节点-033
+  network: tcp
+  password: BxceQaOe
+  port: 51396
+  server: 43.199.34.99
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
 - name: 节点-034
   network: tcp
-  password: e0195c73018d597b1c2f0ea89d8676ae
-  port: 17005
-  server: 13.115.223.251
+  password: 860c3c2c89a1c7515792be1c5295d21e
+  port: 49277
+  server: 18.162.41.225
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 节点-035
   network: tcp
+  password: 860c3c2c89a1c7515792be1c5295d21e
+  port: 17005
+  server: 95.40.53.232
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 节点-036
+  network: tcp
   password: BxceQaOe
-  port: 17801
-  server: 18.163.80.94
+  port: 11993
+  server: 95.40.92.87
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 节点-036
+- name: 节点-037
   network: tcp
   password: e0195c73018d597b1c2f0ea89d8676ae
   port: 49277
@@ -350,7 +358,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 节点-037
+- name: 节点-038
   network: tcp
   password: SoftNetConnect
   port: 42549
@@ -363,7 +371,7 @@ proxies:
   - ''
   alterId: '0'
   cipher: auto
-  name: 节点-038
+  name: 节点-039
   network: tcp
   port: 1020
   server: nlt.reata.ir
@@ -373,7 +381,7 @@ proxies:
   udp: true
   uuid: 6244c41a-f4c1-4733-a654-c38f7729b13c
   xudp: true
-- name: 节点-039
+- name: 节点-040
   network: ws
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
   port: 443
@@ -388,13 +396,13 @@ proxies:
         Gecko) Chrome/41.0.2272.101 Safari/537.36
     path: /
 - cipher: chacha20-ietf-poly1305
-  name: 节点-040
+  name: 节点-041
   password: 7SEstdmLhf-aFK_G9eaYHKT_YpSov58B
   port: 51523
   server: ru.moktana.app
   type: ss
   udp: true
-- name: 节点-041
+- name: 节点-042
   password: BxceQaOe
   port: 9149
   server: 18.162.50.252
@@ -402,45 +410,22 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
-- name: 节点-042
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 443
-  server: 129.154.50.159
-  skip-cert-verify: false
-  sni: tjsp.hhxaf.cc.cd
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: tjsp.hhxaf.cc.cd
-    path: /
 - name: 节点-043
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  password: M7v%w11Se*
   port: 443
-  server: 154.17.28.152
-  skip-cert-verify: false
-  sni: hhcm.hhxaf.cc.cd
+  server: hyfuuf6.wsone.icu
+  skip-cert-verify: true
+  sni: hyfuuf6.wsone.icu
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      Host: hhcm.hhxaf.cc.cd
-    path: /
 - name: 节点-044
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 443
-  server: 69.63.223.42
-  skip-cert-verify: false
-  sni: tjsp.hhxaf.cc.cd
+  password: BxceQaOe
+  port: 5408
+  server: 54.65.32.119
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      Host: tjsp.hhxaf.cc.cd
-    path: /
 proxy-groups:
 - name: AUTO
   type: url-test
