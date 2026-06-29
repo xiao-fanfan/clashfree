@@ -256,85 +256,101 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 节点-025
   network: tcp
-  password: 230012981ba34c12fec11deca0379005
+  password: 4e4910ec52552e36aa43a870a179da83
   port: 53012
-  server: 54.46.30.217
+  server: 13.230.33.22
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 节点-026
   network: tcp
   password: BxceQaOe
-  port: 3941
-  server: 18.166.29.105
+  port: 29449
+  server: 16.163.129.142
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 节点-027
   network: tcp
   password: BxceQaOe
-  port: 3941
-  server: 18.163.56.230
+  port: 27167
+  server: 16.163.145.84
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 节点-028
   network: tcp
   password: BxceQaOe
-  port: 18021
-  server: 18.183.83.131
+  port: 10624
+  server: 13.115.183.122
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 节点-029
   network: tcp
-  password: 230012981ba34c12fec11deca0379005
-  port: 3743
-  server: 54.46.30.217
+  password: 4e4910ec52552e36aa43a870a179da83
+  port: 5701
+  server: 18.181.172.59
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 节点-030
   network: tcp
-  password: 230012981ba34c12fec11deca0379005
+  password: 4e4910ec52552e36aa43a870a179da83
   port: 5701
-  server: 54.46.30.217
+  server: 13.230.33.22
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 节点-031
   network: tcp
-  password: 230012981ba34c12fec11deca0379005
-  port: 48738
-  server: 54.46.30.217
+  password: 4e4910ec52552e36aa43a870a179da83
+  port: 6357
+  server: 43.199.32.140
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 节点-032
   network: tcp
-  password: BxceQaOe
-  port: 9149
-  server: 18.166.29.105
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: 节点-033
-  network: tcp
-  password: 230012981ba34c12fec11deca0379005
-  port: 49277
-  server: 54.46.30.217
+  password: 4e4910ec52552e36aa43a870a179da83
+  port: 48738
+  server: 43.199.32.140
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 节点-034
+- name: 节点-033
   network: tcp
   password: BxceQaOe
-  port: 22657
-  server: 16.163.142.40
+  port: 22459
+  server: 95.40.63.61
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: 节点-034
+  network: tcp
+  password: 4e4910ec52552e36aa43a870a179da83
+  port: 49277
+  server: 13.230.33.22
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 节点-035
+  network: tcp
+  password: 4e4910ec52552e36aa43a870a179da83
+  port: 17005
+  server: 13.230.33.22
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 节点-036
+  network: tcp
+  password: BxceQaOe
+  port: 44265
+  server: 43.198.243.211
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 节点-035
+- name: 节点-037
   password: 7e70223b-f331-41d5-9313-02b8d2df2885
   port: 58995
   server: d1.catcat321.com
@@ -346,7 +362,7 @@ proxies:
   - h2
   - http/1.1
   - h3
-  name: 节点-036
+  name: 节点-038
   network: tcp
   password: SoftNetConnect
   port: 42549
@@ -355,7 +371,7 @@ proxies:
   sni: www.speedtest.net
   type: trojan
   udp: true
-- name: 节点-037
+- name: 节点-039
   network: tcp
   password: 63872b0d-87dd-4474-b690-92773af2922e
   port: 42531
@@ -364,7 +380,7 @@ proxies:
   sni: d.usj1.cat.bilibili.com
   type: trojan
   udp: true
-- name: 节点-038
+- name: 节点-040
   network: tcp
   password: 7e70223b-f331-41d5-9313-02b8d2df2885
   port: 50888
@@ -372,7 +388,7 @@ proxies:
   skip-cert-verify: true
   sni: d.usj1.cat.bilibili.com
   type: trojan
-- name: 节点-039
+- name: 节点-041
   network: tcp
   password: 7e70223b-f331-41d5-9313-02b8d2df2885
   port: 13320
@@ -383,7 +399,7 @@ proxies:
 - alpn:
   - h2
   - http/1.1
-  name: 节点-040
+  name: 节点-042
   network: ws
   password: 0cb2739d-98b8-45ce-b52c-4305c40975a6
   port: 443
@@ -400,7 +416,7 @@ proxies:
 - alpn:
   - h2
   client-fingerprint: firefox
-  name: 节点-041
+  name: 节点-043
   network: ws
   password: Mitivpn
   port: 443
@@ -414,7 +430,7 @@ proxies:
       User-Agent: Mozilla/5.0 (Linux; Android 7.0; Redmi Note 4 Build/NRD90M) AppleWebKit/537.36
         (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
     path: /de=mitivpn
-- name: 节点-042
+- name: 节点-044
   network: ws
   password: MITIVPN
   port: 443
@@ -427,7 +443,7 @@ proxies:
     headers:
       Host: 95r.ir
     path: /MiTiVPN=Usa
-- name: 节点-043
+- name: 节点-045
   network: ws
   password: MITIVPN
   port: 443
@@ -440,7 +456,7 @@ proxies:
     headers:
       Host: 95r.ir
     path: /MiTiVPN=De
-- name: 节点-044
+- name: 节点-046
   network: ws
   password: MiTiVPN
   port: 443
@@ -453,7 +469,7 @@ proxies:
     headers:
       Host: 95r.ir
     path: /MiTiVPN=Se
-- name: 节点-045
+- name: 节点-047
   network: ws
   password: Mitivpn
   port: 443
@@ -515,6 +531,8 @@ proxy-groups:
   - 节点-043
   - 节点-044
   - 节点-045
+  - 节点-046
+  - 节点-047
   url: https://www.gstatic.com/generate_204
   interval: 300
   tolerance: 80
@@ -568,6 +586,8 @@ proxy-groups:
   - 节点-043
   - 节点-044
   - 节点-045
+  - 节点-046
+  - 节点-047
 - name: GLOBAL
   type: select
   proxies: *id001
