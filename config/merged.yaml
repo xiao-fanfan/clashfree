@@ -158,7 +158,7 @@ proxies:
   servername: www.anthropic.com
   tls: true
   type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
+  uuid: 88888888-8888-8888-8888-888888888880
 - cipher: aes-256-cfb
   name: 节点-014
   password: amazonskr05
@@ -176,39 +176,39 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 节点-016
   network: tcp
-  password: b8494776252056a1b62e77c4ff6a6d61
-  port: 2008
-  server: 18.162.58.236
+  password: d6788cf74e6844c45538204efd24b00f
+  port: 53012
+  server: 16.163.50.86
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 节点-017
   network: tcp
   password: BxceQaOe
-  port: 29449
-  server: 95.40.26.121
+  port: 11035
+  server: 43.199.66.183
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 节点-018
   network: tcp
   password: BxceQaOe
-  port: 11035
-  server: 18.163.124.19
+  port: 4374
+  server: 16.162.34.241
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 节点-019
   network: tcp
   password: BxceQaOe
-  port: 10624
-  server: 52.194.214.115
+  port: 27826
+  server: 13.230.228.151
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 节点-020
   network: tcp
-  password: b8494776252056a1b62e77c4ff6a6d61
+  password: d6788cf74e6844c45538204efd24b00f
   port: 5701
   server: 18.162.58.236
   skip-cert-verify: true
@@ -216,201 +216,107 @@ proxies:
   type: trojan
 - name: 节点-021
   network: tcp
-  password: b8494776252056a1b62e77c4ff6a6d61
-  port: 3743
-  server: 16.163.138.198
+  password: d6788cf74e6844c45538204efd24b00f
+  port: 55973
+  server: 18.162.58.236
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 节点-022
   network: tcp
-  password: b8494776252056a1b62e77c4ff6a6d61
-  port: 29642
-  server: 16.163.43.143
+  password: d6788cf74e6844c45538204efd24b00f
+  port: 48738
+  server: 16.163.50.86
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 节点-023
   network: tcp
-  password: BxceQaOe
-  port: 22459
-  server: 43.198.12.202
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: 节点-024
-  network: tcp
-  password: b8494776252056a1b62e77c4ff6a6d61
-  port: 17005
+  password: d6788cf74e6844c45538204efd24b00f
+  port: 29642
   server: 16.163.43.143
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
+- name: 节点-024
+  network: tcp
+  password: BxceQaOe
+  port: 45744
+  server: 43.199.77.197
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
 - name: 节点-025
   network: tcp
-  password: b8494776252056a1b62e77c4ff6a6d61
+  password: d6788cf74e6844c45538204efd24b00f
   port: 49277
-  server: 16.163.50.86
+  server: 16.162.58.236
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 节点-026
   network: tcp
+  password: d6788cf74e6844c45538204efd24b00f
+  port: 49277
+  server: 16.163.138.198
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 节点-027
+  network: tcp
   password: BxceQaOe
-  port: 2366
-  server: 16.163.155.249
+  port: 34638
+  server: 18.162.53.72
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alpn:
-  - http/1.1
-  name: 节点-027
-  network: ws
-  password: MiTiVPN
-  port: 443
-  server: velocore.co
-  skip-cert-verify: false
-  sni: sw.App-Cloud.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.103 Safari/537.36
-    path: /MiTiVPN=Se
-- alpn:
-  - http/1.1
+- cipher: aes-256-cfb
   name: 节点-028
-  network: ws
-  password: MITIVPN
+  password: amazonskr05
   port: 443
-  server: 104.16.72.41
-  skip-cert-verify: false
-  sni: De.App-Cloud.ir
-  type: trojan
+  server: 3.148.210.179
+  type: ss
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /MiTiVPN=De
 - alpn:
   - http/1.1
   name: 节点-029
   network: ws
-  password: MiTiVPN
+  password: dfdse334053vuohm
   port: 443
-  server: 185.133.35.22
+  server: auto.mhjstudio.ir
   skip-cert-verify: false
-  sni: Finl.App-Cloud.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/68.0.3440.106 Safari/537.36
-    path: /MiTiVPN=fL
-- alpn:
-  - http/1.1
-  name: 节点-030
-  network: ws
-  password: MITIVPN
-  port: 443
-  server: 94.140.0.40
-  skip-cert-verify: false
-  sni: Usa.App-Cloud.ir
+  sni: alternative.mhjstudio.ir
   type: trojan
   udp: true
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/70.0.3538.67 Safari/537.36
-    path: /MiTiVPN=Usa
-- alpn:
-  - http/1.1
-  name: 节点-031
-  network: ws
-  password: MiTiVPN
+        Chrome/57.0.2987.133 Safari/537.36
+    path: /
+- cipher: aes-256-cfb
+  name: 节点-030
+  password: amazonskr05
   port: 443
-  server: assets.fiverr.com
-  skip-cert-verify: false
-  sni: fl.App-Cloud.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.84 Safari/537.36
-    path: /MiTiVPN=fL
-- alpn:
-  - http/1.1
-  name: 节点-032
-  network: ws
-  password: MITIVPN
-  port: 443
-  server: www.speedtest.net
-  skip-cert-verify: false
-  sni: germany.App-Cloud.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; vivo 1603 Build/MMB29M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
-    path: /MiTiVPN=De
-- cipher: chacha20-ietf-poly1305
-  name: 节点-033
-  password: ZuzwulnjAbsx4yKoDubxUnQQTz7DHxzQ
-  port: 1080
-  server: bot.sobhanpor.ir
+  server: 15.237.74.149
   type: ss
   udp: true
-- alpn:
-  - http/1.1
-  name: 节点-034
-  network: ws
-  password: MITIVPN
+- cipher: aes-256-cfb
+  name: 节点-031
+  password: amazonskr05
   port: 443
-  server: celestara.biz
-  skip-cert-verify: false
-  sni: Usa.App-Cloud.ir
-  type: trojan
+  server: 3.133.132.79
+  type: ss
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.181 Safari/537.36
-    path: /MiTiVPN=Usa
-- alterId: 2
-  cipher: auto
-  name: 节点-035
+- name: 节点-032
   network: tcp
-  port: 30845
-  server: v45.hdacd.com
+  password: DkQbKDcxEcKj6CoK6erBrQPsgnB7n7nM
+  port: 5222
+  server: dc-38-de.netzrun.at
   skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: firefox
-  name: 节点-036
-  network: ws
-  password: MiTiVPN
-  port: 443
-  server: 88.216.67.230
-  skip-cert-verify: false
-  sni: Nel.App-Cloud.ir
+  sni: dc-38-de.netzrun.at
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/67.0.3396.99 Safari/537.36
-    path: /MiTiVPN=NL
-- name: 节点-037
+- name: 节点-033
   network: ws
   password: MITIVPN
   port: 443
@@ -423,7 +329,7 @@ proxies:
     headers:
       Host: 95r.ir
     path: /MiTiVPN=Usa
-- name: 节点-038
+- name: 节点-034
   network: ws
   password: MITIVPN
   port: 443
@@ -436,7 +342,7 @@ proxies:
     headers:
       Host: 95r.ir
     path: /MiTiVPN=De
-- name: 节点-039
+- name: 节点-035
   network: ws
   password: MiTiVPN
   port: 443
@@ -449,7 +355,7 @@ proxies:
     headers:
       Host: 95r.ir
     path: /MiTiVPN=Se
-- name: 节点-040
+- name: 节点-036
   network: ws
   password: Mitivpn
   port: 443
@@ -502,10 +408,6 @@ proxy-groups:
   - 节点-034
   - 节点-035
   - 节点-036
-  - 节点-037
-  - 节点-038
-  - 节点-039
-  - 节点-040
   url: https://www.gstatic.com/generate_204
   interval: 300
   tolerance: 80
@@ -550,10 +452,6 @@ proxy-groups:
   - 节点-034
   - 节点-035
   - 节点-036
-  - 节点-037
-  - 节点-038
-  - 节点-039
-  - 节点-040
 - name: GLOBAL
   type: select
   proxies: *id001
