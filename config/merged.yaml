@@ -257,16 +257,16 @@ proxies:
 - name: 节点-025
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 20083
-  server: 54.46.117.9
+  port: 13118
+  server: 16.163.41.104
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 节点-026
   network: tcp
   password: BxceQaOe
-  port: 11035
-  server: 95.40.32.196
+  port: 27161
+  server: 43.198.114.146
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -274,15 +274,15 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 27161
-  server: 18.162.125.64
+  server: 95.40.50.170
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 节点-028
   network: tcp
   password: BxceQaOe
-  port: 27826
-  server: 18.162.60.7
+  port: 19708
+  server: 13.230.164.110
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -290,15 +290,15 @@ proxies:
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 40138
-  server: 95.40.13.204
+  server: 54.46.12.97
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 节点-030
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 40138
-  server: 18.163.103.6
+  port: 24370
+  server: 18.163.121.106
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -306,15 +306,15 @@ proxies:
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 48738
-  server: 18.163.103.6
+  server: 18.163.121.106
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 节点-032
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 48738
-  server: 54.46.117.9
+  port: 6357
+  server: 16.163.41.104
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -322,56 +322,49 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 32434
-  server: 95.40.33.19
+  server: 18.166.58.225
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 节点-034
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 49277
-  server: 54.46.117.9
+  port: 17005
+  server: 54.46.12.97
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 节点-035
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 17005
-  server: 18.163.110.193
+  port: 49277
+  server: 54.46.12.97
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 节点-036
   network: tcp
   password: BxceQaOe
-  port: 34638
-  server: 54.46.67.204
+  port: 11993
+  server: 95.40.50.170
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 节点-037
-  network: ws
-  password: cortex-trojan-2026
-  port: 8443
-  server: 152.42.191.178
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: trojan
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /x
+  name: 节点-037
+  network: http
+  port: 52080
+  server: 154.36.128.61
+  tls: false
+  type: vmess
   udp: true
-  ws-opts:
-    headers:
-      Host: www.bing.com
-    path: /trojan-ws-cortex
+  uuid: 5fcc340d-ad35-4e50-a9c8-130f21a4a59d
 - name: 节点-038
-  password: 1df3ece1218bedba28c6c6ac726a07bb
-  port: 39001
-  server: 114.80.8.128
-  skip-cert-verify: true
-  sni: www.yrtok.com
-  type: trojan
-  udp: true
-- name: 节点-039
   network: ws
   password: MITIVPN
   port: 443
@@ -384,7 +377,7 @@ proxies:
     headers:
       Host: 95r.ir
     path: /MiTiVPN=Usa
-- name: 节点-040
+- name: 节点-039
   network: ws
   password: MITIVPN
   port: 443
@@ -397,7 +390,7 @@ proxies:
     headers:
       Host: 95r.ir
     path: /MiTiVPN=De
-- name: 节点-041
+- name: 节点-040
   network: ws
   password: MiTiVPN
   port: 443
@@ -410,7 +403,7 @@ proxies:
     headers:
       Host: 95r.ir
     path: /MiTiVPN=Se
-- name: 节点-042
+- name: 节点-041
   network: ws
   password: Mitivpn
   port: 443
@@ -468,7 +461,6 @@ proxy-groups:
   - 节点-039
   - 节点-040
   - 节点-041
-  - 节点-042
   url: https://www.gstatic.com/generate_204
   interval: 300
   tolerance: 80
@@ -518,7 +510,6 @@ proxy-groups:
   - 节点-039
   - 节点-040
   - 节点-041
-  - 节点-042
 - name: GLOBAL
   type: select
   proxies: *id001
