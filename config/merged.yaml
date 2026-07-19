@@ -350,40 +350,94 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- cipher: aes-256-cfb
-  name: 节点-037
-  password: amazonskr05
-  port: 443
-  server: 3.122.115.111
-  type: ss
+- name: 节点-037
+  network: tcp
+  password: OccIqeORGQwiNkwS
+  port: 19128
+  server: jpbgp.netvigor.cc
+  skip-cert-verify: false
+  sni: yazhou10.dynu.net
+  type: trojan
   udp: true
 - name: 节点-038
   network: ws
   password: humanity
   port: 443
-  server: 104.16.147.104
+  server: 104.18.152.97
   skip-cert-verify: false
-  sni: www.creationlong.org
+  sni: www.ignitelimit.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
     path: /assignment
+- cipher: aes-256-cfb
+  name: 节点-039
+  password: amazonskr05
+  port: 443
+  server: 3.77.54.36
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 节点-039
-  network: raw
-  port: 16025
-  server: c722s801.portablesubmarines.com
-  skip-cert-verify: false
-  tls: false
+  name: 节点-040
+  network: tcp
+  port: 10047
+  server: family.bucket.x9.kfc-520.com
+  skip-cert-verify: true
   type: vmess
+  uuid: 1dc73529-f030-3ac5-ad64-f7666b9a51bc
+- cipher: aes-256-cfb
+  name: 节点-041
+  password: S7KwUu7yBy58S3Ga
+  port: 9042
+  server: 5.188.181.201
+  type: ss
   udp: true
-  uuid: 4bd2af9a-67a3-4e1a-8eef-c443ec86e80b
-  xudp: true
-- name: 节点-040
+- name: 节点-042
+  network: ws
+  password: 74480619-b6a8-4ab8-94e1-1132fc18b2fa
+  port: 443
+  server: 185.18.250.252
+  skip-cert-verify: false
+  sni: unnes.ac.id.r3xxe.eu.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /au-mt
+- name: 节点-043
+  network: tcp
+  password: HW85960347
+  port: 443
+  server: master-possum.rooster465.autos
+  skip-cert-verify: false
+  sni: master-possum.rooster465.autos
+  type: trojan
+  udp: true
+- name: 节点-044
+  network: tcp
+  password: KV63147582
+  port: 443
+  server: wondrous-dogfish.rooster465.autos
+  skip-cert-verify: false
+  sni: wondrous-dogfish.rooster465.autos
+  type: trojan
+  udp: true
+- name: 节点-045
+  network: tcp
+  password: HW85960347
+  port: 443
+  server: ultimate-cardinal.rooster465.autos
+  skip-cert-verify: false
+  sni: ultimate-cardinal.rooster465.autos
+  type: trojan
+  udp: true
+- name: 节点-046
   network: ws
   password: MITIVPN
   port: 443
@@ -396,7 +450,7 @@ proxies:
     headers:
       Host: 95r.ir
     path: /MiTiVPN=Usa
-- name: 节点-041
+- name: 节点-047
   network: ws
   password: MITIVPN
   port: 443
@@ -409,7 +463,7 @@ proxies:
     headers:
       Host: 95r.ir
     path: /MiTiVPN=De
-- name: 节点-042
+- name: 节点-048
   network: ws
   password: MiTiVPN
   port: 443
@@ -422,7 +476,7 @@ proxies:
     headers:
       Host: 95r.ir
     path: /MiTiVPN=Se
-- name: 节点-043
+- name: 节点-049
   network: ws
   password: Mitivpn
   port: 443
@@ -482,6 +536,12 @@ proxy-groups:
   - 节点-041
   - 节点-042
   - 节点-043
+  - 节点-044
+  - 节点-045
+  - 节点-046
+  - 节点-047
+  - 节点-048
+  - 节点-049
   url: https://www.gstatic.com/generate_204
   interval: 300
   tolerance: 80
@@ -533,6 +593,12 @@ proxy-groups:
   - 节点-041
   - 节点-042
   - 节点-043
+  - 节点-044
+  - 节点-045
+  - 节点-046
+  - 节点-047
+  - 节点-048
+  - 节点-049
 - name: GLOBAL
   type: select
   proxies: *id001
