@@ -257,48 +257,48 @@ proxies:
 - name: 节点-025
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 13118
-  server: 18.167.109.142
+  port: 47867
+  server: 43.198.78.177
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 节点-026
   network: tcp
   password: BxceQaOe
-  port: 11035
-  server: 43.198.15.160
+  port: 27161
+  server: 43.198.11.229
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 节点-027
   network: tcp
   password: BxceQaOe
-  port: 11231
-  server: 43.198.246.144
+  port: 27161
+  server: 43.198.17.21
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 节点-028
   network: tcp
   password: BxceQaOe
-  port: 4099
-  server: 18.163.84.128
+  port: 54411
+  server: 43.199.253.12
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 节点-029
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 40138
-  server: 35.77.80.32
+  port: 38937
+  server: 18.167.84.124
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 节点-030
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 38937
-  server: 95.40.51.248
+  port: 40138
+  server: 16.163.109.164
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -306,7 +306,7 @@ proxies:
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 6357
-  server: 95.40.51.248
+  server: 43.198.78.177
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -314,15 +314,15 @@ proxies:
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 6357
-  server: 18.162.245.180
+  server: 18.167.84.124
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 节点-033
   network: tcp
   password: BxceQaOe
-  port: 9149
-  server: 43.199.146.29
+  port: 45744
+  server: 43.198.106.37
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -330,223 +330,55 @@ proxies:
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 49277
-  server: 95.40.51.248
-  skip-cert-verify: true
+  server: 16.162.187.38
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 节点-035
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 17005
-  server: 18.167.109.142
-  skip-cert-verify: true
+  port: 49277
+  server: 18.167.84.124
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 节点-036
   network: tcp
   password: BxceQaOe
-  port: 11993
-  server: 18.166.225.126
+  port: 29085
+  server: 43.198.106.37
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 节点-037
-  password: IQ68037294
-  port: 443
-  server: aware-pika.rooster465.autos
-  skip-cert-verify: true
-  sni: aware-pika.rooster465.autos
-  type: trojan
-  udp: true
-- name: 节点-038
-  password: IQ68037294
-  port: 443
-  server: definite-giraffe.rooster465.autos
-  skip-cert-verify: true
-  sni: definite-giraffe.rooster465.autos
-  type: trojan
-  udp: true
-- name: 节点-039
-  network: tcp
-  password: IQ68037294
-  port: 443
-  server: desired-pony.rooster465.autos
-  skip-cert-verify: false
-  sni: desired-pony.rooster465.autos
-  type: trojan
-  udp: true
-- name: 节点-040
-  password: IQ68037294
-  port: 443
-  server: humane-bird.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-- name: 节点-041
-  password: IQ68037294
-  port: 443
-  server: moving-wren.rooster465.autos
-  skip-cert-verify: true
-  sni: moving-wren.rooster465.autos
-  type: trojan
-  udp: true
-- name: 节点-042
-  password: IQ68037294
-  port: 443
-  server: amazed-burro.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 节点-043
-  password: IQ68037294
-  port: 443
-  server: literate-grizzly.rooster465.autos
-  skip-cert-verify: true
-  sni: literate-grizzly.rooster465.autos
-  type: trojan
-  udp: true
-- name: 节点-044
-  password: IQ68037294
-  port: 443
-  server: select-marmoset.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-- name: 节点-045
-  password: IQ68037294
-  port: 443
-  server: whole-perch.rooster465.autos
-  skip-cert-verify: true
-  sni: whole-perch.rooster465.autos
-  type: trojan
-  udp: true
-- name: 节点-046
-  password: IQ68037294
-  port: 443
-  server: adjusted-labrador.rooster465.autos
-  skip-cert-verify: true
-  sni: adjusted-labrador.rooster465.autos
-  type: trojan
-- name: 节点-047
-  password: IQ68037294
-  port: 443
-  server: artistic-pigeon.rooster465.autos
-  skip-cert-verify: true
-  sni: artistic-pigeon.rooster465.autos
-  type: trojan
-  udp: true
-- name: 节点-048
-  password: IQ68037294
-  port: 443
-  server: whole-woodcock.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-- name: 节点-049
-  password: IQ68037294
-  port: 443
-  server: prepared-turkey.rooster465.autos
-  skip-cert-verify: true
-  sni: prepared-turkey.rooster465.autos
-  type: trojan
-  udp: true
-- name: 节点-050
   network: ws
   password: c206d543-023d-46cc-9d5a-1f0f2fc16323
   port: 443
   server: 188.164.248.122
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: space.byu.id.yxls.eu.cc
   type: trojan
+  udp: true
   ws-opts:
     headers:
-      Host: space.byu.id.yxls.eu.cc
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.117 Safari/537.36
     path: /in-pdr
-- name: 节点-051
-  password: IQ68037294
+- name: 节点-038
+  network: ws
+  password: p2QFnWdKPZt0evve7n-C52fTqRndJa5W
   port: 443
-  server: endless-kiwi.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 节点-052
-  password: IQ68037294
-  port: 443
-  server: sincere-man.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-- cipher: aes-256-cfb
-  name: 节点-053
-  password: amazonskr05
-  port: 443
-  server: 63.176.169.206
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 节点-054
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 443
-  server: 82.38.31.174
-  type: ss
-  udp: true
-- name: 节点-055
-  network: tcp
-  password: IQ68037294
-  port: 443
-  server: glowing-deer.rooster465.autos
+  server: 103.27.157.97
   skip-cert-verify: false
+  sni: rem.dtr.kotokopolb.ru
   type: trojan
   udp: true
-- name: 节点-056
-  password: IQ68037294
-  port: 443
-  server: major-duckling.rooster465.autos
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- name: 节点-057
-  network: tcp
-  password: HW85960347
-  port: 443
-  server: 185.14.47.195
-  skip-cert-verify: false
-  sni: eminent-lamb.rooster465.autos
-  type: trojan
-  udp: true
-- name: 节点-058
-  network: tcp
-  password: IQ68037294
-  port: 443
-  server: pleased-sawfly.rooster465.autos
-  skip-cert-verify: true
-  sni: pleased-sawfly.rooster465.autos
-  type: trojan
-  udp: true
-- name: 节点-059
-  network: tcp
-  password: IQ68037294
-  port: 443
-  server: adapting-ghost.rooster465.autos
-  skip-cert-verify: false
-  sni: adapting-ghost.rooster465.autos
-  type: trojan
-  udp: true
-- name: 节点-060
-  network: tcp
-  password: IQ68037294
-  port: 443
-  server: casual-bullfrog.rooster465.autos
-  skip-cert-verify: false
-  sni: casual-bullfrog.rooster465.autos
-  type: trojan
-  udp: true
-- name: 节点-061
-  network: tcp
-  password: IQ68037294
-  port: 443
-  server: robust-toucan.rooster465.autos
-  skip-cert-verify: false
-  sni: robust-toucan.rooster465.autos
-  type: trojan
-  udp: true
-- name: 节点-062
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/49.0.2623.112 Safari/537.36
+    path: /trojan-ws
+- name: 节点-039
   network: ws
   password: MITIVPN
   port: 443
@@ -559,7 +391,7 @@ proxies:
     headers:
       Host: 95r.ir
     path: /MiTiVPN=Usa
-- name: 节点-063
+- name: 节点-040
   network: ws
   password: MITIVPN
   port: 443
@@ -572,7 +404,7 @@ proxies:
     headers:
       Host: 95r.ir
     path: /MiTiVPN=De
-- name: 节点-064
+- name: 节点-041
   network: ws
   password: MiTiVPN
   port: 443
@@ -585,7 +417,7 @@ proxies:
     headers:
       Host: 95r.ir
     path: /MiTiVPN=Se
-- name: 节点-065
+- name: 节点-042
   network: ws
   password: Mitivpn
   port: 443
@@ -644,29 +476,6 @@ proxy-groups:
   - 节点-040
   - 节点-041
   - 节点-042
-  - 节点-043
-  - 节点-044
-  - 节点-045
-  - 节点-046
-  - 节点-047
-  - 节点-048
-  - 节点-049
-  - 节点-050
-  - 节点-051
-  - 节点-052
-  - 节点-053
-  - 节点-054
-  - 节点-055
-  - 节点-056
-  - 节点-057
-  - 节点-058
-  - 节点-059
-  - 节点-060
-  - 节点-061
-  - 节点-062
-  - 节点-063
-  - 节点-064
-  - 节点-065
   url: https://www.gstatic.com/generate_204
   interval: 300
   tolerance: 80
@@ -717,29 +526,6 @@ proxy-groups:
   - 节点-040
   - 节点-041
   - 节点-042
-  - 节点-043
-  - 节点-044
-  - 节点-045
-  - 节点-046
-  - 节点-047
-  - 节点-048
-  - 节点-049
-  - 节点-050
-  - 节点-051
-  - 节点-052
-  - 节点-053
-  - 节点-054
-  - 节点-055
-  - 节点-056
-  - 节点-057
-  - 节点-058
-  - 节点-059
-  - 节点-060
-  - 节点-061
-  - 节点-062
-  - 节点-063
-  - 节点-064
-  - 节点-065
 - name: GLOBAL
   type: select
   proxies: *id001
