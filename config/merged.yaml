@@ -350,104 +350,51 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 节点-037
+- alterId: 2
+  cipher: auto
+  name: 节点-037
+  port: 30808
+  server: v8.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /x
+  name: 节点-038
+  network: http
+  port: 52080
+  server: 154.36.128.61
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 5fcc340d-ad35-4e50-a9c8-130f21a4a59d
+- cipher: aes-128-gcm
+  name: 节点-039
+  password: ba2a429e-dcaa-4d94-a651-99b0a920ee38
+  port: 40031
+  server: permission_level_01.unclemanco.com
+  type: ss
+  udp: true
+- name: 节点-040
   network: ws
   password: c206d543-023d-46cc-9d5a-1f0f2fc16323
   port: 443
   server: 188.164.248.122
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: space.byu.id.yxls.eu.cc
   type: trojan
+  udp: true
   ws-opts:
     headers:
       Host: space.byu.id.yxls.eu.cc
     path: /in-pdr
-- cipher: chacha20-ietf-poly1305
-  name: 节点-038
-  password: CUEYgBIv3UinEYcB/Ha5Jf792AEjyNwnGu0hIKK+o5Q=
-  port: 51570
-  server: e1.cover20.ir
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 节点-039
-  password: amazonskr05
-  port: 443
-  server: 54.167.54.100
-  skip-cert-verify: true
-  type: ss
-  udp: true
-- client-fingerprint: edge
-  name: 节点-040
-  network: tcp
-  password: 7e70223b-f331-41d5-9313-02b8d2df2885
-  port: 20031
-  server: kkvlvvq-a.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
-  udp: true
-- name: 节点-041
-  network: tcp
-  password: JT80563429
-  port: 443
-  server: inspired-hound.rooster465.autos
-  skip-cert-verify: false
-  sni: inspired-hound.rooster465.autos
-  type: trojan
-  udp: true
-- name: 节点-042
-  network: ws
-  password: MITIVPN
-  port: 443
-  server: 94.140.0.100
-  skip-cert-verify: false
-  sni: 95r.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 95r.ir
-    path: /MiTiVPN=Usa
-- name: 节点-043
-  network: ws
-  password: MITIVPN
-  port: 443
-  server: 164.38.155.135
-  skip-cert-verify: false
-  sni: 95r.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 95r.ir
-    path: /MiTiVPN=De
-- name: 节点-044
-  network: ws
-  password: MiTiVPN
-  port: 443
-  server: 45.131.4.118
-  skip-cert-verify: false
-  sni: 95r.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: 95r.ir
-    path: /MiTiVPN=Se
-- name: 节点-045
-  network: ws
-  password: Mitivpn
-  port: 443
-  server: iranpoems.ir
-  skip-cert-verify: false
-  sni: www.gamingdll.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.gamingdll.ir
-    path: /usa=mitivpn
 proxy-groups:
 - name: AUTO
   type: url-test
@@ -492,11 +439,6 @@ proxy-groups:
   - 节点-038
   - 节点-039
   - 节点-040
-  - 节点-041
-  - 节点-042
-  - 节点-043
-  - 节点-044
-  - 节点-045
   url: https://www.gstatic.com/generate_204
   interval: 300
   tolerance: 80
@@ -545,11 +487,6 @@ proxy-groups:
   - 节点-038
   - 节点-039
   - 节点-040
-  - 节点-041
-  - 节点-042
-  - 节点-043
-  - 节点-044
-  - 节点-045
 - name: GLOBAL
   type: select
   proxies: *id001
