@@ -257,49 +257,48 @@ proxies:
 - name: 节点-025
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
-  port: 50887
-  server: 95.40.107.76
+  port: 39412
+  server: 16.162.191.180
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 节点-026
   network: tcp
   password: BxceQaOe
-  port: 29443
-  server: 18.166.249.45
+  port: 27161
+  server: 16.162.191.180
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-  udp: true
 - name: 节点-027
   network: tcp
   password: BxceQaOe
-  port: 11035
-  server: 16.163.123.222
+  port: 49811
+  server: 16.162.191.180
   skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
+  sni: t.me%252Fripaojiedian
   type: trojan
 - name: 节点-028
   network: tcp
-  password: BxceQaOe
-  port: 7630
-  server: 16.163.123.222
+  password: d1960ba9f0f6353353994fa844cf817b
+  port: 3415
+  server: 18.166.178.12
   skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
+  sni: www.nintendogames.net
   type: trojan
 - name: 节点-029
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
-  port: 14625
-  server: 18.166.178.12
+  port: 54876
+  server: 18.163.100.58
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 节点-030
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
-  port: 54876
-  server: 57.183.7.187
+  port: 51396
+  server: 18.166.178.12
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -307,54 +306,98 @@ proxies:
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 51396
-  server: 18.163.100.58
+  server: 95.40.107.76
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 节点-032
   network: tcp
-  password: d1960ba9f0f6353353994fa844cf817b
-  port: 51396
-  server: 95.40.107.76
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: 节点-033
-  network: tcp
   password: BxceQaOe
-  port: 45744
-  server: 18.163.90.221
+  port: 9149
+  server: 16.162.22.218
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
+  type: trojan
+  udp: true
+- name: 节点-033
+  network: tcp
+  password: d1960ba9f0f6353353994fa844cf817b
+  port: 28051
+  server: 18.163.100.58
+  skip-cert-verify: true
+  sni: www.nintendogames.net
   type: trojan
 - name: 节点-034
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
-  port: 34039
+  port: 28051
   server: 95.40.107.76
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 节点-035
   network: tcp
-  password: d1960ba9f0f6353353994fa844cf817b
-  port: 53001
-  server: 18.163.100.58
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: 节点-036
-  network: tcp
   password: BxceQaOe
   port: 29085
-  server: 18.163.90.221
+  server: 16.162.164.238
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
+  type: trojan
+- name: 节点-036
+  network: ws
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: 104.25.242.132
+  skip-cert-verify: true
+  sni: yks-dd9.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: yks-dd9.pages.dev
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 节点-037
+  password: 28789988-887e-4e41-83cd-27bbfb7999ad
+  port: 40006
+  server: xunlinknode.csdjhajkshdjkas.com
+  type: ss
+- name: 节点-038
+  network: ws
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: 172.64.146.75
+  skip-cert-verify: true
+  sni: yks-dd9.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: yks-dd9.pages.dev
+    path: /
+- name: 节点-039
+  network: ws
+  password: 87961f9d-bee1-4377-826b-e169e7891c4f
+  port: 443
+  server: 162.159.24.245
+  skip-cert-verify: true
+  sni: yks-dd9.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: yks-dd9.pages.dev
+    path: /
+- name: 节点-040
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: stunning-mite.rooster465.autos
+  skip-cert-verify: true
+  sni: stunning-mite.rooster465.autos
   type: trojan
   udp: true
 - alterId: 2
   cipher: auto
-  name: 节点-037
+  name: 节点-041
   network: tcp
   port: 30829
   server: v29.hdacd.com
@@ -364,94 +407,110 @@ proxies:
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   xudp: true
-- alterId: 2
-  cipher: auto
-  name: 节点-038
-  port: 30808
-  server: v8.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  xudp: true
-- alpn:
-  - http/1.1
-  name: 节点-039
-  network: ws
-  password: MITIVPN
+- name: 节点-042
+  network: tcp
+  password: ND91608427
   port: 443
-  server: 104.16.239.120
+  server: sacred-treefrog.rooster465.autos
   skip-cert-verify: true
-  sni: Ussa1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+  sni: sacred-treefrog.rooster465.autos
   type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.106 Safari/537.36
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/usa---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- alpn:
-  - http/1.1
-  name: 节点-040
-  network: ws
-  password: MITIVPN
+- name: 节点-043
+  network: tcp
+  password: ND91608427
   port: 443
-  server: 104.17.148.22
+  server: becoming-hare.rooster465.autos
   skip-cert-verify: true
-  sni: Duss-a-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S-s-S.iR
+  sni: becoming-hare.rooster465.autos
   type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/67.0.3396.99 Safari/537.36
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/usa---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- grpc-opts:
-    grpc-service-name: /50779/NQmry9z8yR
-  name: 节点-041
-  network: grpc
-  password: 581e14a5fcc14107b9326cc54f047891
-  port: 443
-  server: 31.76.11.46.cdn-one.org
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- grpc-opts:
-    grpc-service-name: /28786/4U7gXXHftA
-  name: 节点-042
-  network: grpc
-  password: 581e14a5fcc14107b9326cc54f047891
-  port: 443
-  server: 31.76.251.127.cdn-one.org
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- grpc-opts:
-    grpc-service-name: /56227/rSnUrv2yXU
-  name: 节点-043
-  network: grpc
-  password: 581e14a5fcc14107b9326cc54f047891
-  port: 443
-  server: 83.143.112.140.cdn-one.org
-  skip-cert-verify: false
-  sni: 83.143.112.140.cdn-one.org
-  type: trojan
-  udp: true
 - name: 节点-044
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: Hkdcrtc-e.catcat321.com
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: discrete-basilisk.rooster465.autos
   skip-cert-verify: true
-  sni: de.catxstar.com
+  sni: discrete-basilisk.rooster465.autos
+  type: trojan
+- alpn:
+  - http/1.1
+  name: 节点-045
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 104.16.6.189
+  skip-cert-verify: true
+  sni: J--P-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
   type: trojan
   udp: true
-- name: 节点-045
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: hkdcrtc-e.catcat321.com
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.110 Safari/537.36
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/JP---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- name: 节点-046
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: 13.192.236.67
+  skip-cert-verify: false
+  sni: immense-gnu.rooster465.autos
+  type: trojan
+  udp: true
+- name: 节点-047
+  network: tcp
+  password: ND91608427
+  port: 443
+  server: 43.203.119.20
+  skip-cert-verify: false
+  sni: uncommon-feline.rooster465.autos
+  type: trojan
+  udp: true
+- name: 节点-048
+  network: raw
+  password: QV31589740
+  port: 443
+  server: great-krill.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: 节点-049
+  password: ND91608427
+  port: 443
+  server: definite-sturgeon.rooster465.autos
   skip-cert-verify: true
-  sni: hkdcrtc-e.catcat321.com
+  sni: definite-sturgeon.rooster465.autos
+  type: trojan
+  udp: true
+- name: 节点-050
+  password: ND91608427
+  port: 443
+  server: upright-impala.rooster465.autos
+  skip-cert-verify: true
+  sni: upright-impala.rooster465.autos
+  type: trojan
+  udp: true
+- name: 节点-051
+  password: ND91608427
+  port: 443
+  server: definite-malamute.rooster465.autos
+  skip-cert-verify: true
+  sni: definite-malamute.rooster465.autos
+  type: trojan
+  udp: true
+- name: 节点-052
+  password: ND91608427
+  port: 443
+  server: moved-meerkat.rooster465.autos
+  skip-cert-verify: true
+  sni: moved-meerkat.rooster465.autos
+  type: trojan
+  udp: true
+- name: 节点-053
+  password: 1BARPLkaLl
+  port: 32914
+  server: 45.130.22.70
+  skip-cert-verify: true
+  sni: 45.130.22.70
   type: trojan
   udp: true
 proxy-groups:
@@ -503,6 +562,14 @@ proxy-groups:
   - 节点-043
   - 节点-044
   - 节点-045
+  - 节点-046
+  - 节点-047
+  - 节点-048
+  - 节点-049
+  - 节点-050
+  - 节点-051
+  - 节点-052
+  - 节点-053
   url: https://www.gstatic.com/generate_204
   interval: 300
   tolerance: 80
@@ -556,6 +623,14 @@ proxy-groups:
   - 节点-043
   - 节点-044
   - 节点-045
+  - 节点-046
+  - 节点-047
+  - 节点-048
+  - 节点-049
+  - 节点-050
+  - 节点-051
+  - 节点-052
+  - 节点-053
 - name: GLOBAL
   type: select
   proxies: *id001
