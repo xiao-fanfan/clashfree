@@ -257,16 +257,16 @@ proxies:
 - name: 节点-025
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
-  port: 50887
-  server: 2c.fast9988.com
+  port: 39412
+  server: 57.183.7.187
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 节点-026
   network: tcp
   password: BxceQaOe
-  port: 11035
-  server: 43.198.109.39
+  port: 35151
+  server: 16.162.190.25
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -274,96 +274,74 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 35151
-  server: 43.198.126.41
+  server: 18.167.76.203
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 节点-028
   network: tcp
   password: BxceQaOe
-  port: 9408
-  server: 43.198.126.41
+  port: 4099
+  server: 18.167.76.203
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 节点-029
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
-  port: 18286
-  server: 18.163.100.58
+  port: 7630
+  server: 18.166.178.12
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 节点-030
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
-  port: 18617
-  server: 95.40.107.76
+  port: 18286
+  server: 18.166.178.12
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 节点-031
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
-  port: 36580
-  server: 18.163.100.58
+  port: 45747
+  server: 57.183.7.187
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 节点-032
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
-  port: 32434
-  server: 57.183.7.187
+  port: 45744
+  server: 18.166.178.12
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 节点-033
   network: tcp
   password: BxceQaOe
-  port: 45744
-  server: 18.166.178.40
+  port: 32434
+  server: 18.163.120.239
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 节点-034
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
-  port: 39024
-  server: 95.40.107.76
+  port: 34039
+  server: 18.163.100.58
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 节点-035
   network: tcp
-  password: 6ec301428255a78a1d826988d86cc87e
-  port: 28051
-  server: 18.166.178.12
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: 节点-036
-  network: tcp
   password: BxceQaOe
-  port: 1431
-  server: 43.198.89.155
+  port: 10418
+  server: 18.167.76.203
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 节点-037
-  password: MGU4ZjVkMGNhY2Y3YzM0NmIxMDgyNDQ5OGVjZjY2Y2Y=
-  port: 61312
-  server: 129.151.81.122
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 节点-038
-  password: YTEyZDI0OGQwM2ZmZjc4ZTg1ZTBiYTNlZTZkZjIxODM=
-  port: 45819
-  server: 92.5.238.164
-  type: ss
-  udp: true
 proxy-groups:
 - name: AUTO
   type: url-test
@@ -403,9 +381,6 @@ proxy-groups:
   - 节点-033
   - 节点-034
   - 节点-035
-  - 节点-036
-  - 节点-037
-  - 节点-038
   url: https://www.gstatic.com/generate_204
   interval: 300
   tolerance: 80
@@ -449,9 +424,6 @@ proxy-groups:
   - 节点-033
   - 节点-034
   - 节点-035
-  - 节点-036
-  - 节点-037
-  - 节点-038
 - name: GLOBAL
   type: select
   proxies: *id001
