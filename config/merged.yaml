@@ -257,7 +257,7 @@ proxies:
 - name: 节点-025
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
-  port: 39412
+  port: 50887
   server: 57.183.7.187
   skip-cert-verify: true
   sni: www.nintendogames.net
@@ -265,32 +265,33 @@ proxies:
 - name: 节点-026
   network: tcp
   password: BxceQaOe
-  port: 35151
-  server: 16.162.190.25
+  port: 27161
+  server: 16.162.3.11
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+  udp: true
 - name: 节点-027
   network: tcp
   password: BxceQaOe
-  port: 35151
-  server: 18.167.76.203
+  port: 29444
+  server: 18.162.120.21
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 节点-028
   network: tcp
   password: BxceQaOe
-  port: 4099
-  server: 18.167.76.203
+  port: 9408
+  server: 16.162.92.128
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 节点-029
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
-  port: 7630
-  server: 18.166.178.12
+  port: 18617
+  server: 57.183.7.187
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -299,7 +300,7 @@ proxies:
   password: 6ec301428255a78a1d826988d86cc87e
   port: 18286
   server: 18.166.178.12
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 节点-031
@@ -315,14 +316,14 @@ proxies:
   password: 6ec301428255a78a1d826988d86cc87e
   port: 45744
   server: 18.166.178.12
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 节点-033
   network: tcp
   password: BxceQaOe
-  port: 32434
-  server: 18.163.120.239
+  port: 41421
+  server: 95.40.53.193
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -337,11 +338,103 @@ proxies:
 - name: 节点-035
   network: tcp
   password: BxceQaOe
-  port: 10418
-  server: 18.167.76.203
+  port: 39024
+  server: 18.166.226.204
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 节点-036
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 45.80.111.7
+  skip-cert-verify: false
+  sni: d-2-AA-ia-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.mitiVpN.lIfeStyLe
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/65.0.3325.162 Safari/537.36
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e1@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- client-fingerprint: chrome
+  name: 节点-037
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.44
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/41.0.2272.76 Safari/537.36
+    path: /assignment
+- alterId: 2
+  cipher: auto
+  name: 节点-038
+  network: tcp
+  port: 30845
+  server: v45.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
+- client-fingerprint: chrome
+  name: 节点-039
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.7.70
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29T) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.83 Mobile Safari/537.36
+    path: /assignment
+- cipher: aes-256-cfb
+  name: 节点-040
+  password: amazonskr05
+  port: 443
+  server: 51.102.205.132
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 节点-041
+  password: amazonskr05
+  port: 443
+  server: 18.219.164.184
+  type: ss
+  udp: true
+- alterId: 2
+  cipher: auto
+  name: 节点-042
+  port: 30829
+  server: v29.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
+- name: 节点-043
+  password: 7d8e6db4-96cc-4710-afc0-619edde2d7a1
+  port: 55682
+  server: t11.qifei.app
+  skip-cert-verify: true
+  sni: t11.qifei.app
+  type: trojan
+  udp: true
 proxy-groups:
 - name: AUTO
   type: url-test
@@ -381,6 +474,14 @@ proxy-groups:
   - 节点-033
   - 节点-034
   - 节点-035
+  - 节点-036
+  - 节点-037
+  - 节点-038
+  - 节点-039
+  - 节点-040
+  - 节点-041
+  - 节点-042
+  - 节点-043
   url: https://www.gstatic.com/generate_204
   interval: 300
   tolerance: 80
@@ -424,6 +525,14 @@ proxy-groups:
   - 节点-033
   - 节点-034
   - 节点-035
+  - 节点-036
+  - 节点-037
+  - 节点-038
+  - 节点-039
+  - 节点-040
+  - 节点-041
+  - 节点-042
+  - 节点-043
 - name: GLOBAL
   type: select
   proxies: *id001
