@@ -239,332 +239,184 @@ proxies:
   tls: false
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
-- alterId: 0
-  cipher: auto
-  name: 节点-023
-  port: 6001
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
-  type: vmess
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- alterId: 0
-  cipher: auto
-  name: 节点-024
-  port: 51556
-  server: 103.181.164.145
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 节点-025
-  network: ws
-  port: 33412
-  server: ct3.ainivp.com
-  tls: true
-  type: vmess
-  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
-  ws-opts:
-    headers:
-      Host: ct3.ainivp.com
-    path: /ray
-- alterId: 0
-  cipher: auto
-  name: 节点-026
-  port: 6003
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- alterId: 0
-  cipher: auto
-  name: 节点-027
-  port: 6004
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
-  type: vmess
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- alterId: 2
-  cipher: auto
-  name: 节点-028
-  network: tcp
-  port: 30845
-  server: v45.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: 节点-029
-  port: 180
-  server: 82.198.246.37
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- client-fingerprint: chrome
-  name: 节点-030
-  network: ws
-  password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
-  port: 443
-  server: blackshadow.dpdns.org
-  sni: support.zoom.us.blackshadow.dpdns.org
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: support.zoom.us.blackshadow.dpdns.org
-    path: /195.123.218.174-443
-- name: 节点-031
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 45553
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: ch.01.naiun.bilibili.com
-  tls: true
-  type: trojan
-- name: 节点-032
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 41943
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: az.01.naiun.bilibili.com
-  tls: true
-  type: trojan
-- name: 节点-033
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 46424
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: de.01.naiun.bilibili.com
-  tls: true
-  type: trojan
-- name: 节点-034
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 48697
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: gh.01.naiun.bilibili.com
-  tls: true
-  type: trojan
-- name: 节点-035
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 47909
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: is.01.naiun.bilibili.com
-  tls: true
-  type: trojan
-- name: 节点-036
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 45619
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: fr.01.naiun.bilibili.com
-  tls: true
-  type: trojan
-- name: 节点-037
-  network: ws
-  password: 433e785b-2077-47f7-a43d-985f63dd18d1
-  port: 18000
-  server: 121.154.96.50
-  sni: vpn.rnmcnm.com
-  tls: true
-  type: trojan
-  ws-opts:
-    path: /trojan
-- alterId: 0
-  cipher: auto
-  name: 节点-038
-  network: ws
-  port: 52620
-  server: 38.60.176.80
-  type: vmess
-  uuid: d60c7a89-40d9-4f09-e8f8-591932ce79ef
-  ws-opts:
-    path: /8704a4ad
 - cipher: aes-256-cfb
-  name: 节点-039
+  name: 节点-023
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
 - alterId: 2
   cipher: auto
-  name: 节点-040
+  name: 节点-024
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 节点-041
+- name: 节点-025
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
-  port: 1138
-  server: 43.198.107.164
+  port: 14684
+  server: 16.163.156.207
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 节点-042
+- name: 节点-026
   network: tcp
   password: BxceQaOe
-  port: 11035
-  server: 43.198.248.121
+  port: 29444
+  server: 43.198.240.223
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 节点-043
+- name: 节点-027
   network: tcp
   password: BxceQaOe
-  port: 27161
-  server: 18.163.122.95
+  port: 14684
+  server: 43.198.109.134
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 节点-044
+- name: 节点-028
   network: tcp
   password: BxceQaOe
-  port: 16691
-  server: 16.163.146.58
+  port: 49811
+  server: 16.163.139.175
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 节点-045
+- name: 节点-029
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
-  port: 44229
-  server: 95.40.14.234
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: 节点-046
-  network: tcp
-  password: 6ec301428255a78a1d826988d86cc87e
-  port: 54876
-  server: 16.162.192.182
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: 节点-047
-  network: tcp
-  password: 6ec301428255a78a1d826988d86cc87e
-  port: 45744
-  server: 18.163.126.92
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: 节点-048
-  network: tcp
-  password: 6ec301428255a78a1d826988d86cc87e
-  port: 51396
-  server: 16.162.100.124
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: 节点-049
-  network: tcp
-  password: BxceQaOe
-  port: 26704
-  server: 16.163.146.58
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: 节点-050
-  network: tcp
-  password: 6ec301428255a78a1d826988d86cc87e
-  port: 28051
+  port: 55564
   server: 16.162.109.29
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 节点-051
+- name: 节点-030
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
-  port: 10418
+  port: 3415
   server: 16.162.192.182
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 节点-052
+- name: 节点-031
+  network: tcp
+  password: 6ec301428255a78a1d826988d86cc87e
+  port: 51396
+  server: 95.40.14.234
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 节点-032
+  network: tcp
+  password: 6ec301428255a78a1d826988d86cc87e
+  port: 7375
+  server: 16.162.100.124
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 节点-033
   network: tcp
   password: BxceQaOe
-  port: 10418
-  server: 95.40.29.163
+  port: 26704
+  server: 16.163.139.175
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: 节点-034
+  network: tcp
+  password: 6ec301428255a78a1d826988d86cc87e
+  port: 28051
+  server: 18.163.126.92
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 节点-035
+  network: tcp
+  password: 6ec301428255a78a1d826988d86cc87e
+  port: 28051
+  server: 16.162.192.182
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 节点-036
+  network: tcp
+  password: BxceQaOe
+  port: 39024
+  server: 16.163.144.245
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 0
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 节点-037
+  network: ws
+  password: a196faa4-403e-4a8b-987a-d1789f379685
+  port: 49755
+  server: 139.162.100.58
+  skip-cert-verify: true
+  sni: vpn-node.internal
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/54.0.2840.99 Safari/537.36
+    path: /xVpnTrojanWsSvc7f3a
+- alterId: '0'
   cipher: auto
-  name: 节点-053
+  name: 节点-038
   network: ws
   port: 16632
   server: planb.mojcn.com.linuxlh.xin
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: false
   type: vmess
+  udp: true
   uuid: 97c638c6-86d5-4cf6-b70b-114c6809b637
   ws-opts:
     headers:
       Host: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
     path: /
+  xudp: true
 - client-fingerprint: chrome
-  name: 节点-054
+  name: 节点-039
   network: ws
   password: humanity
   port: 443
-  server: 104.17.111.8
+  server: 104.18.23.63
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/50.0.2661.102 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
     path: /assignment
-- client-fingerprint: chrome
-  name: 节点-055
+- alterId: 0
+  cipher: auto
+  name: 节点-040
   network: ws
-  password: 65c56e1f-5c41-40bc-b0b5-9346772476ca
-  port: 2053
-  server: cf.130209.xyz
-  skip-cert-verify: false
-  sni: v4.ipsb.us.ci
-  type: trojan
-  udp: true
+  port: 53224
+  server: 192.248.163.148
+  tls: false
+  type: vmess
+  uuid: 647c2dc6-fd48-4a84-9b59-163df19ad6f9
   ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/70.0.3538.67 Safari/537.36
-    path: /api/v2/check_update
-- client-fingerprint: chrome
-  name: 节点-056
-  password: PQ05174892
+    path: /647c2dc6-fd48-4a84-9b59-163df19ad6f9
+- cipher: aes-256-cfb
+  name: 节点-041
+  password: amazonskr05
   port: 443
-  server: merry-falcon.rooster465.autos
-  skip-cert-verify: false
-  type: trojan
+  server: 18.191.198.248
+  type: ss
   udp: true
-- client-fingerprint: chrome
-  name: 节点-057
-  network: tcp
-  password: PQ05174892
-  port: 443
-  server: infinite-anteater.rooster465.autos
-  skip-cert-verify: false
-  sni: infinite-anteater.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 节点-058
-  network: tcp
-  password: PQ05174892
-  port: 443
-  server: rare-lion.rooster465.autos
-  skip-cert-verify: false
-  sni: rare-lion.rooster465.autos
-  type: trojan
-  udp: true
-- name: 节点-059
+- name: 节点-042
   password: BxceQaOe
   port: 27161
   server: 16.162.3.11
@@ -572,7 +424,7 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- name: 节点-060
+- name: 节点-043
   password: 7d8e6db4-96cc-4710-afc0-619edde2d7a1
   port: 55682
   server: t11.qifei.app
@@ -627,23 +479,6 @@ proxy-groups:
   - 节点-041
   - 节点-042
   - 节点-043
-  - 节点-044
-  - 节点-045
-  - 节点-046
-  - 节点-047
-  - 节点-048
-  - 节点-049
-  - 节点-050
-  - 节点-051
-  - 节点-052
-  - 节点-053
-  - 节点-054
-  - 节点-055
-  - 节点-056
-  - 节点-057
-  - 节点-058
-  - 节点-059
-  - 节点-060
   url: https://www.gstatic.com/generate_204
   interval: 300
   tolerance: 80
@@ -695,23 +530,6 @@ proxy-groups:
   - 节点-041
   - 节点-042
   - 节点-043
-  - 节点-044
-  - 节点-045
-  - 节点-046
-  - 节点-047
-  - 节点-048
-  - 节点-049
-  - 节点-050
-  - 节点-051
-  - 节点-052
-  - 节点-053
-  - 节点-054
-  - 节点-055
-  - 节点-056
-  - 节点-057
-  - 节点-058
-  - 节点-059
-  - 节点-060
 - name: GLOBAL
   type: select
   proxies: *id001
