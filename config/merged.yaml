@@ -342,102 +342,82 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 节点-036
-  password: fg20mtCFHy
-  port: 5612
-  server: 172.234.100.80
-  skip-cert-verify: true
-  sni: yugdv.southbyte.xyz
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 节点-037
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: 21107
-  server: 211.91.158.27
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 节点-038
-  network: ws
-  port: 16632
-  server: planb.mojcn.com.linuxlh.xin
-  servername: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 97c638c6-86d5-4cf6-b70b-114c6809b637
-  ws-opts:
-    headers:
-      Host: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
-    path: /
-  xudp: true
-- alterId: 0
-  cipher: auto
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: 节点-039
-  network: http
-  port: 52080
-  server: 38.246.226.240
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 7d4bd961-230c-4b34-ab5d-05cf0dfb4ea5
-  xudp: true
 - cipher: aes-256-cfb
-  name: 节点-040
+  name: 节点-036
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 120.232.253.90
+  type: ss
+- cipher: aes-256-cfb
+  name: 节点-037
+  password: amazonskr05
+  port: 443
+  server: 52.59.195.252
+  type: ss
+- cipher: aes-256-cfb
+  name: 节点-038
+  password: amazonskr05
+  port: 443
+  server: 3.145.35.194
+  type: ss
+- cipher: aes-256-cfb
+  name: 节点-039
   password: 7eadc6dbe2ae
   port: 65443
   server: 121.46.230.235
   type: ss
   udp: true
-- name: 节点-041
-  network: tcp
-  password: fg20mtCFHy
-  port: 5859
-  server: 209.38.240.27
-  skip-cert-verify: true
-  sni: uyped.southbyte.xyz
-  type: trojan
 - client-fingerprint: chrome
+  name: 节点-040
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.36
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/36.0.1985.125 Safari/537.36
+    path: /assignment
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 节点-041
+  network: http
+  port: 52080
+  server: 38.246.226.240
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7d4bd961-230c-4b34-ab5d-05cf0dfb4ea5
+- cipher: aes-256-cfb
   name: 节点-042
-  network: tcp
-  password: EQ30679154
-  port: 443
-  server: upright-sheepdog.rooster465.autos
-  skip-cert-verify: false
-  sni: upright-sheepdog.rooster465.autos
-  type: trojan
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 120.232.253.96
+  type: ss
   udp: true
-- client-fingerprint: chrome
+- cipher: aes-256-cfb
   name: 节点-043
+  password: amazonskr05
+  port: 443
+  server: 3.144.19.187
+  type: ss
+- client-fingerprint: chrome
+  name: 节点-044
   network: tcp
   password: EQ30679154
   port: 443
-  server: pretty-mollusk.rooster465.autos
+  server: 18.143.129.104
   skip-cert-verify: false
-  type: trojan
-  udp: true
-- name: 节点-044
-  password: BxceQaOe
-  port: 27161
-  server: 16.162.3.11
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- name: 节点-045
-  password: 7d8e6db4-96cc-4710-afc0-619edde2d7a1
-  port: 55682
-  server: t11.qifei.app
-  skip-cert-verify: true
-  sni: t11.qifei.app
+  sni: picked-hamster.rooster465.autos
   type: trojan
   udp: true
 proxy-groups:
@@ -488,7 +468,6 @@ proxy-groups:
   - 节点-042
   - 节点-043
   - 节点-044
-  - 节点-045
   url: https://www.gstatic.com/generate_204
   interval: 300
   tolerance: 80
@@ -541,7 +520,6 @@ proxy-groups:
   - 节点-042
   - 节点-043
   - 节点-044
-  - 节点-045
 - name: GLOBAL
   type: select
   proxies: *id001
