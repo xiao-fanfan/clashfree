@@ -256,65 +256,65 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 节点-025
   network: tcp
-  password: 6ec301428255a78a1d826988d86cc87e
+  password: d5517dedef425597a1b9fdbaad99544e
   port: 14684
-  server: 43.199.143.104
+  server: 18.162.120.218
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 节点-026
   network: tcp
   password: BxceQaOe
-  port: 11231
-  server: 95.40.89.31
+  port: 27161
+  server: 16.162.121.244
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 节点-027
   network: tcp
   password: BxceQaOe
-  port: 7674
-  server: 95.40.89.31
+  port: 27161
+  server: 43.198.21.141
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 节点-028
   network: tcp
   password: BxceQaOe
-  port: 3878
-  server: 16.162.100.208
+  port: 16691
+  server: 43.198.21.141
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 节点-029
   network: tcp
-  password: 6ec301428255a78a1d826988d86cc87e
-  port: 14625
+  password: d5517dedef425597a1b9fdbaad99544e
+  port: 54876
   server: 95.40.14.234
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 节点-030
   network: tcp
-  password: 6ec301428255a78a1d826988d86cc87e
-  port: 55647
-  server: 16.162.109.29
+  password: d5517dedef425597a1b9fdbaad99544e
+  port: 38936
+  server: 16.162.192.182
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 节点-031
   network: tcp
-  password: 6ec301428255a78a1d826988d86cc87e
+  password: d5517dedef425597a1b9fdbaad99544e
   port: 45744
-  server: 16.162.100.124
+  server: 18.163.126.92
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 节点-032
   network: tcp
-  password: 6ec301428255a78a1d826988d86cc87e
+  password: d5517dedef425597a1b9fdbaad99544e
   port: 32434
-  server: 16.162.100.124
+  server: 16.162.109.29
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -322,148 +322,105 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 45744
-  server: 16.162.100.208
+  server: 16.162.121.244
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 节点-034
   network: tcp
-  password: 6ec301428255a78a1d826988d86cc87e
-  port: 39024
-  server: 16.162.109.29
+  password: d5517dedef425597a1b9fdbaad99544e
+  port: 34039
+  server: 18.162.120.218
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 节点-035
   network: tcp
-  password: 6ec301428255a78a1d826988d86cc87e
+  password: d5517dedef425597a1b9fdbaad99544e
   port: 28051
-  server: 18.163.126.92
+  server: 95.40.14.234
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 节点-036
   network: tcp
   password: BxceQaOe
-  port: 10418
-  server: 18.163.74.15
+  port: 53001
+  server: 43.199.47.78
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - cipher: aes-256-cfb
   name: 节点-037
-  password: amazonskr05
-  port: 443
-  server: 63.186.69.235
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.136
   type: ss
-- cipher: aes-256-cfb
+  udp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
   name: 节点-038
-  password: amazonskr05
+  network: ws
+  password: MiTiVPN
   port: 443
-  server: 13.38.46.203
-  type: ss
-- alterId: '0'
+  server: 188.114.97.6
+  skip-cert-verify: false
+  sni: 3865895-mitivpn--mitivpn------mitivpn.mitivpn-s.lifestyle
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.106 Safari/537.36
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/s-w@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- alterId: 0
   cipher: auto
   name: 节点-039
   network: ws
-  port: 443
-  server: node.socks5.kdns.fr
-  servername: chest-own-llp-collections.trycloudflare.com
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: e1ed0569-bfe4-468f-aa9a-63819e8229ef
-  ws-opts:
-    headers:
-      Host: chest-own-llp-collections.trycloudflare.com
-    path: /e1ed0569-bfe4-468f-aa9a-63819e8229ef-vm
-  xudp: true
-- alterId: '0'
-  cipher: auto
-  name: 节点-040
-  network: ws
-  port: 16622
+  port: 16632
   server: planb.mojcn.com.linuxlh.xin
+  servername: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: b312c029-18bb-43c8-bc5a-b4f8d193853c
+  uuid: 97c638c6-86d5-4cf6-b70b-114c6809b637
   ws-opts:
     headers:
-      Host: 09a25e0678d5f69a5bb882d9f6441ad2.mobgslb.tbcache.com
+      Host: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
     path: /
   xudp: true
 - client-fingerprint: chrome
-  name: 节点-041
+  name: 节点-040
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.204
+  server: 104.18.152.133
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/42.0.2311.90 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
     path: /assignment
-- alterId: 0
-  cipher: auto
-  name: 节点-042
-  network: http
-  port: 52080
-  server: 38.246.226.240
-  skip-cert-verify: true
-  type: vmess
-  uuid: 7d4bd961-230c-4b34-ab5d-05cf0dfb4ea5
-- cipher: aes-256-cfb
-  name: 节点-043
-  password: amazonskr05
+- client-fingerprint: chrome
+  name: 节点-041
+  network: ws
+  password: humanity
   port: 443
-  server: 51.44.167.151
-  type: ss
-- cipher: aes-256-cfb
-  name: 节点-044
-  password: amazonskr05
-  port: 443
-  server: 13.38.78.128
-  type: ss
-- cipher: aes-256-cfb
-  name: 节点-045
-  password: amazonskr05
-  port: 443
-  server: 63.176.139.123
-  type: ss
+  server: 104.18.152.230
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
   udp: true
-- cipher: aes-256-cfb
-  name: 节点-046
-  password: amazonskr05
-  port: 443
-  server: 51.44.170.194
-  type: ss
-- cipher: aes-256-cfb
-  name: 节点-047
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 103.169.67.34
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 节点-048
-  password: amazonskr05
-  port: 443
-  server: 3.145.61.0
-  type: ss
-- cipher: aes-256-gcm
-  name: 节点-049
-  password: b160be88-28c2-31bb-a153-8b050228f0c3
-  port: 484
-  server: f.d.o.2.3.i.9.9.6.jp02-ae5.entry.v51124-3a.qpon
-  type: ss
-  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.113 Safari/537.36
+    path: /assignment
 proxy-groups:
 - name: AUTO
   type: url-test
@@ -509,14 +466,6 @@ proxy-groups:
   - 节点-039
   - 节点-040
   - 节点-041
-  - 节点-042
-  - 节点-043
-  - 节点-044
-  - 节点-045
-  - 节点-046
-  - 节点-047
-  - 节点-048
-  - 节点-049
   url: https://www.gstatic.com/generate_204
   interval: 300
   tolerance: 80
@@ -566,14 +515,6 @@ proxy-groups:
   - 节点-039
   - 节点-040
   - 节点-041
-  - 节点-042
-  - 节点-043
-  - 节点-044
-  - 节点-045
-  - 节点-046
-  - 节点-047
-  - 节点-048
-  - 节点-049
 - name: GLOBAL
   type: select
   proxies: *id001
