@@ -255,7 +255,6 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 节点-025
-  network: tcp
   password: d5517dedef425597a1b9fdbaad99544e
   port: 25982
   server: 43.198.107.164
@@ -263,7 +262,6 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - name: 节点-026
-  network: tcp
   password: BxceQaOe
   port: 1103
   server: 16.163.147.33
@@ -271,7 +269,6 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 节点-027
-  network: tcp
   password: BxceQaOe
   port: 1103
   server: 18.163.180.82
@@ -279,7 +276,6 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 节点-028
-  network: tcp
   password: BxceQaOe
   port: 16691
   server: 18.163.180.82
@@ -287,7 +283,6 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 节点-029
-  network: tcp
   password: d5517dedef425597a1b9fdbaad99544e
   port: 40136
   server: 16.162.109.29
@@ -295,7 +290,6 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - name: 节点-030
-  network: tcp
   password: d5517dedef425597a1b9fdbaad99544e
   port: 18617
   server: 18.163.126.92
@@ -303,7 +297,6 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - name: 节点-031
-  network: tcp
   password: d5517dedef425597a1b9fdbaad99544e
   port: 51396
   server: 95.40.14.234
@@ -311,7 +304,6 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - name: 节点-032
-  network: tcp
   password: d5517dedef425597a1b9fdbaad99544e
   port: 32434
   server: 16.162.192.182
@@ -319,7 +311,6 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - name: 节点-033
-  network: tcp
   password: BxceQaOe
   port: 32434
   server: 43.199.155.17
@@ -327,7 +318,6 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 节点-034
-  network: tcp
   password: d5517dedef425597a1b9fdbaad99544e
   port: 34039
   server: 43.199.143.104
@@ -335,7 +325,6 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - name: 节点-035
-  network: tcp
   password: d5517dedef425597a1b9fdbaad99544e
   port: 39024
   server: 95.40.14.234
@@ -343,46 +332,292 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - name: 节点-036
-  network: tcp
   password: BxceQaOe
   port: 39024
   server: 43.199.155.17
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
+- alterId: 0
+  cipher: auto
   name: 节点-037
-  password: FH72359861
+  network: ws
   port: 443
-  server: national-stingray.rooster465.autos
-  skip-cert-verify: true
-  sni: national-stingray.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
+  server: t245hvl0VMtlXR4v.v.3dns.vip
+  servername: t245hvl0VMtlXR4v.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: t245hvl0VMtlXR4v.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
   name: 节点-038
   network: ws
-  password: 8978b84c-6b95-4494-beb6-5246ec82e9ad
   port: 443
-  server: cdn3.bpcdn.cc
+  server: 3j41E63Msh9TgXvR.v.3dns.vip
+  servername: 3j41E63Msh9TgXvR.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: 3j41E63Msh9TgXvR.v.3dns.vip
+    path: /ws-vmess
+- name: 节点-039
+  network: tcp
+  password: BxceQaOe
+  port: 44002
+  server: 43.199.64.95
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 节点-040
+  network: ws
+  port: 443
+  server: J3Nz0zA0r13AoVhH.v.3dns.vip
+  servername: J3Nz0zA0r13AoVhH.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: J3Nz0zA0r13AoVhH.v.3dns.vip
+    path: /ws-vmess
+- name: 节点-041
+  network: tcp
+  password: BxceQaOe
+  port: 1103
+  server: 35.78.187.63
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 节点-042
+  network: ws
+  port: 443
+  server: UcKniXjfd2JOKBmx.v.3dns.vip
+  servername: UcKniXjfd2JOKBmx.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: UcKniXjfd2JOKBmx.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 节点-043
+  network: ws
+  port: 443
+  server: Aim7HqTuvNOofcsx.v.3dns.vip
+  servername: Aim7HqTuvNOofcsx.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: Aim7HqTuvNOofcsx.v.3dns.vip
+    path: /ws-vmess
+- name: 节点-044
+  network: tcp
+  password: BxceQaOe
+  port: 41421
+  server: 35.78.187.63
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: 节点-045
+  network: tcp
+  password: BxceQaOe
+  port: 1103
+  server: 18.163.79.248
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 节点-046
+  network: ws
+  port: 443
+  server: 3kCf86Ufi0U5xBDA.v.3dns.vip
+  servername: 3kCf86Ufi0U5xBDA.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: 3kCf86Ufi0U5xBDA.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 节点-047
+  network: ws
+  port: 443
+  server: lL0GIaPVZ6Zxkd94.v.3dns.vip
+  servername: lL0GIaPVZ6Zxkd94.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: lL0GIaPVZ6Zxkd94.v.3dns.vip
+    path: /ws-vmess
+- cipher: aes-256-gcm
+  name: 节点-048
+  password: Butterfly123@qwe9527
+  port: 30001
+  server: 36.33.35.105
+  type: ss
+- name: 节点-049
+  network: tcp
+  password: BxceQaOe
+  port: 39024
+  server: 54.46.3.138
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: 节点-050
+  password: a126f35c-e832-4115-8593-b723ade3f7be
+  port: 20006
+  server: kkvlvvq-a.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: 节点-051
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.136
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: 节点-052
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.23.63
   skip-cert-verify: false
-  sni: baijofe6666.bpjp2027.top
+  sni: www.ignitelimit.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.103 Safari/537.36
-    path: /images
-- client-fingerprint: chrome
-  name: 节点-039
-  network: tcp
-  password: FH72359861
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J700M Build/MMB29K) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /assignment
+- alterId: '0'
+  cipher: auto
+  name: 节点-053
+  network: ws
+  port: 16632
+  server: t.cnmjcn.cyou
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d52b72b0-a509-490a-adae-23da2348d29c
+  ws-opts:
+    headers:
+      Host: 82d16f3a12ad1d0871e0270510bf2ef6.mobgslb.tbcache.com
+    path: /
+  xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: 节点-054
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21108
+  server: 211.91.158.44
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 节点-055
+  password: amazonskr05
   port: 443
-  server: 87.121.33.109
-  skip-cert-verify: true
-  sni: national-stingray.rooster465.autos
-  type: trojan
+  server: 16.52.46.12
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 节点-056
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21113
+  server: 211.91.158.26
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 节点-057
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21118
+  server: 211.91.158.44
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 节点-058
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21125
+  server: 211.91.158.44
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 节点-059
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21103
+  server: 211.91.158.44
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 节点-060
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21103
+  server: 211.91.158.26
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 节点-061
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21114
+  server: 211.91.158.26
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 节点-062
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21117
+  server: 211.91.158.26
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 节点-063
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21126
+  server: 211.91.158.26
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 节点-064
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21105
+  server: 211.91.158.44
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 节点-065
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21114
+  server: 211.91.158.44
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 节点-066
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: 21126
+  server: 211.91.158.44
+  type: ss
   udp: true
 proxy-groups:
 - name: AUTO
@@ -427,6 +662,33 @@ proxy-groups:
   - 节点-037
   - 节点-038
   - 节点-039
+  - 节点-040
+  - 节点-041
+  - 节点-042
+  - 节点-043
+  - 节点-044
+  - 节点-045
+  - 节点-046
+  - 节点-047
+  - 节点-048
+  - 节点-049
+  - 节点-050
+  - 节点-051
+  - 节点-052
+  - 节点-053
+  - 节点-054
+  - 节点-055
+  - 节点-056
+  - 节点-057
+  - 节点-058
+  - 节点-059
+  - 节点-060
+  - 节点-061
+  - 节点-062
+  - 节点-063
+  - 节点-064
+  - 节点-065
+  - 节点-066
   url: https://www.gstatic.com/generate_204
   interval: 300
   tolerance: 80
@@ -474,6 +736,33 @@ proxy-groups:
   - 节点-037
   - 节点-038
   - 节点-039
+  - 节点-040
+  - 节点-041
+  - 节点-042
+  - 节点-043
+  - 节点-044
+  - 节点-045
+  - 节点-046
+  - 节点-047
+  - 节点-048
+  - 节点-049
+  - 节点-050
+  - 节点-051
+  - 节点-052
+  - 节点-053
+  - 节点-054
+  - 节点-055
+  - 节点-056
+  - 节点-057
+  - 节点-058
+  - 节点-059
+  - 节点-060
+  - 节点-061
+  - 节点-062
+  - 节点-063
+  - 节点-064
+  - 节点-065
+  - 节点-066
 - name: GLOBAL
   type: select
   proxies: *id001
