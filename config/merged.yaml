@@ -269,24 +269,22 @@ proxies:
 - name: 节点-027
   network: tcp
   password: BxceQaOe
-  port: 1103
-  server: 95.40.24.109
+  port: 53001
+  server: 95.40.24.249
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 节点-028
-  network: tcp
   password: BxceQaOe
-  port: 4117
-  server: 54.250.197.209
+  port: 1103
+  server: 54.168.189
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 节点-029
-  network: tcp
   password: BxceQaOe
-  port: 49811
-  server: 54.238.251.95
+  port: 9408
+  server: 18.163.11126
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -306,7 +304,7 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 41421
-  server: 3.115.9.60
+  server: 54.255.201.71
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -325,8 +323,8 @@ proxies:
 - name: 节点-035
   network: tcp
   password: BxceQaOe
-  port: 53001
-  server: 95.40.24.249
+  port: 1431
+  server: 43.198.210.207
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -336,33 +334,57 @@ proxies:
   port: 30001
   server: 36.33.35.105
   type: ss
-- client-fingerprint: chrome
-  name: 节点-037
+- name: 节点-037
   network: tcp
-  password: a126f35c-e832-4115-8593-b723ade3f7be
-  port: 20066
-  server: hkdcrtc-e.catcat321.com
+  password: BxceQaOe
+  port: 25982
+  server: 52.195.148.119
   skip-cert-verify: true
-  sni: hk.catxstar.com
+  sni: t.me%2Fripaojiedian
   type: trojan
-  udp: true
+- name: 节点-038
+  network: tcp
+  password: BxceQaOe
+  port: 9408
+  server: 18.163.115.126
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
 - cipher: aes-256-cfb
-  name: 节点-038
-  password: amazonskr05
-  port: 443
-  server: 18.171.235.36
+  name: 节点-039
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.233
   type: ss
   udp: true
 - client-fingerprint: chrome
-  name: 节点-039
-  network: tcp
-  password: a126f35c-e832-4115-8593-b723ade3f7be
-  port: 20066
-  server: kkvlvvq-a.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
+  name: 节点-040
+  network: ws
+  password: humanity
+  port: 443
+  server: join-telegram-channel-tirexnet.trex.kdns.fr
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
   type: trojan
   udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /assignment
+- alterId: 0
+  cipher: auto
+  name: 节点-041
+  network: ws
+  port: 16632
+  server: t.cnmjcn.cyou
+  skip-cert-verify: true
+  type: vmess
+  uuid: 62319519-82bc-46ff-99cd-237bd0882cef
+  ws-opts:
+    headers:
+      Host: 1b24b66c02c843942070b76b27406898.mobgslb.tbcache.com
+    path: /
 proxy-groups:
 - name: AUTO
   type: url-test
@@ -406,6 +428,8 @@ proxy-groups:
   - 节点-037
   - 节点-038
   - 节点-039
+  - 节点-040
+  - 节点-041
   url: https://www.gstatic.com/generate_204
   interval: 300
   tolerance: 80
@@ -453,6 +477,8 @@ proxy-groups:
   - 节点-037
   - 节点-038
   - 节点-039
+  - 节点-040
+  - 节点-041
 - name: GLOBAL
   type: select
   proxies: *id001
