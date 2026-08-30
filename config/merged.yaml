@@ -352,49 +352,44 @@ proxies:
   type: trojan
 - cipher: aes-256-cfb
   name: 节点-039
-  password: amazonskr05
-  port: 443
-  server: 18.171.210.5
-  type: ss
-- cipher: aes-256-cfb
-  name: 节点-040
-  password: amazonskr05
-  port: 443
-  server: 34.244.150.119
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 节点-041
   password: 7eadc6dbe2ae
   port: 65443
-  server: 121.46.230.232
+  server: 121.46.230.233
   type: ss
   udp: true
+- client-fingerprint: chrome
+  name: 节点-040
+  network: ws
+  password: humanity
+  port: 443
+  server: 45.130.125.160
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.102 Safari/537.36
+    path: /assignment
 - alterId: 2
   cipher: auto
-  name: 节点-042
+  name: 节点-041
   network: tcp
-  port: 30845
-  server: v45.hdacd.com
+  port: 30829
+  server: v29.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   xudp: true
-- cipher: aes-256-cfb
-  name: 节点-043
-  password: amazonskr05
-  port: 443
-  server: 176.34.158.52
-  type: ss
-  udp: true
 - client-fingerprint: chrome
-  name: 节点-044
+  name: 节点-042
   network: ws
   password: humanity
   port: 443
-  server: 104.20.6.134
+  server: 104.18.152.207
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
@@ -402,22 +397,72 @@ proxies:
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/49.0.2623.110 Safari/537.36
+        Gecko) Chrome/45.0.2454.85 Safari/537.36
     path: /assignment
-- cipher: aes-256-cfb
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 节点-043
+  network: ws
+  password: humanity
+  port: 443
+  server: join-telegram-channel-tirexnet.trex.kdns.fr
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1606 Build/MMB29M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: 节点-044
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.208
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/61.0.3163.100 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
   name: 节点-045
-  password: amazonskr05
+  network: ws
+  password: humanity
   port: 443
-  server: 3.96.124.46
-  type: ss
+  server: 104.16.174.6
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
   udp: true
-- cipher: aes-256-cfb
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.181 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
   name: 节点-046
-  password: amazonskr05
+  network: ws
+  password: humanity
   port: 443
-  server: 35.182.250.193
-  type: ss
+  server: 104.16.174.143
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
   udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/533.4
+        (KHTML, like Gecko) Chrome/5.0.375.99 Safari/533.4
+    path: /assignment
 proxy-groups:
 - name: AUTO
   type: url-test
