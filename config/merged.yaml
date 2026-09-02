@@ -336,216 +336,122 @@ proxies:
   port: 30001
   server: 36.33.35.105
   type: ss
-- client-fingerprint: chrome
+- cipher: aes-256-cfb
   name: 节点-037
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.233
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.138
+  type: ss
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.84 Safari/537.36
-    path: /assignment
+- cipher: aes-256-cfb
+  name: 节点-038
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.233
+  type: ss
+  udp: true
 - alterId: 2
   cipher: auto
-  name: 节点-038
-  port: 30845
-  server: v45.hdacd.com
-  skip-cert-verify: true
+  name: 节点-039
+  network: tcp
+  port: 30829
+  server: v29.hdacd.com
+  skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  name: 节点-039
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: 节点-040
   network: ws
-  password: humanity
-  port: 443
-  server: 172.67.74.2
+  port: 16626
+  server: planb.mojcn.com.linuxlh.xin
   skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
+  tls: false
+  type: vmess
   udp: true
+  uuid: 62e0878c-ff8c-4a67-b18f-89886e24750c
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1606 Build/MMB29M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
-    path: /assignment
-- cipher: chacha20-ietf
-  name: 节点-040
-  password: passwd
-  plugin: obfs
-  plugin-opts:
-    host: 37949-LD4JNZAf.download.microsoft.com
-    mode: http
-  port: 8206
-  server: cn07.somethingstranges.com
-  type: ss
-  udp: true
+      Host: 706a0a2fb2f7729acf9a103060a7abc3.mobgslb.tbcache.com
+    path: /
+  xudp: true
 - alterId: '0'
   cipher: auto
   name: 节点-041
   network: ws
   port: 16632
-  server: m.cnmjin.net
-  type: vmess
-  uuid: 2498a366-dd3c-4f0b-832c-f2df12f7ee27
-  ws-opts:
-    headers:
-      Host: 791f9b5b1318471268a2dc21098376cc.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 节点-042
-  network: ws
-  port: 34228
-  server: jp.6807251.xyz
+  server: planb.mojcn.com.linuxlh.xin
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: 7aa3a024-e333-4b63-99a2-3db9d3b2054e
+  uuid: 56a511bd-f207-48f4-be5b-4652afe178a4
   ws-opts:
     headers:
-      Host: a.189.cn
+      Host: 686a7558df571afb1408b0e77ae4f687.mobgslb.tbcache.com
     path: /
   xudp: true
+- cipher: aes-256-cfb
+  name: 节点-042
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.232
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 节点-043
   network: ws
-  port: 16617
-  server: planb.mojcn.com.linuxlh.xin
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: ca68cf56-7c3c-4127-816e-7442de9176b7
-  ws-opts:
-    headers:
-      Host: 7ddc7ef7c7f198c5e7dbed9634157ca7.mobgslb.tbcache.com
-    path: /
-  xudp: true
-- cipher: chacha20-ietf
-  name: 节点-044
-  password: passwd
-  plugin: obfs
-  plugin-opts:
-    host: 37949-LD4JNZAf.download.microsoft.com
-    mode: http
-  port: 8406
-  server: cn12.somethingstranges.com
-  type: ss
-- cipher: aes-256-cfb
-  name: 节点-045
-  password: amazonskr05
-  port: 443
-  server: 35.179.104.254
-  type: ss
-  udp: true
-- alterId: '0'
-  cipher: auto
-  name: 节点-046
-  network: ws
-  port: 16626
-  server: planb.mojcn.com.linuxlh.xin
-  type: vmess
-  uuid: 302cf141-f8e2-448d-aca5-3ad9e9f1b4c1
-  ws-opts:
-    headers:
-      Host: d2c315853d201942b93c6d6de56fec5d.mobgslb.tbcache.com
-    path: /
-- name: 节点-047
-  password: 302cf77d-6fb7-4ac8-ae61-88e286340d59
-  port: 50222
-  server: hk03.qianmoip.win
-  skip-cert-verify: true
-  sni: taobao.com
-  type: trojan
-- alterId: 1
-  cipher: auto
-  name: 节点-048
-  port: 21581
-  server: 01eb6-g01.jp03-7d22-vm0.entry.fr0307a.art
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 7a6cb59b-fbcd-3f50-b5f2-a2534326c4c8
-- alterId: 0
-  cipher: auto
-  name: 节点-049
-  network: ws
   port: 16632
-  server: planb.mojcn.com.linuxlh.xin
+  server: t.cnmjcn.cyou
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: 6605fd88-f41c-4c2a-90ee-6777ac0a32a2
+  uuid: 62e0878c-ff8c-4a67-b18f-89886e24750c
   ws-opts:
     headers:
-      Host: 052977cd32d141678a739f13963d57ac.mobgslb.tbcache.com
+      Host: 706a0a2fb2f7729acf9a103060a7abc3.mobgslb.tbcache.com
     path: /
   xudp: true
-- alterId: '0'
-  cipher: auto
-  name: 节点-050
-  network: ws
-  port: 65531
-  server: 78.31.249.175
+- client-fingerprint: chrome
+  name: 节点-044
+  network: tcp
+  password: 5b5b69cd-c9f6-3117-8f4f-0e9bff3811b7
+  port: 14492
+  server: adakv1-u03.sonofthewinds.com
   skip-cert-verify: false
-  tls: false
-  type: vmess
+  sni: un5.sonofthewinds.com
+  type: trojan
   udp: true
-  uuid: 7aa3a024-e333-4b63-99a2-3db9d3b2054e
-  ws-opts:
-    headers:
-      Host: gw.alicdn.com
-    path: /
-  xudp: true
-- alterId: '0'
-  cipher: auto
-  name: 节点-051
-  network: ws
-  port: 16622
-  server: planb.mojcn.com.linuxlh.xin
+- client-fingerprint: chrome
+  name: 节点-045
+  network: tcp
+  password: 5b5b69cd-c9f6-3117-8f4f-0e9bff3811b7
+  port: 14460
+  server: adakv1-s01.sonofthewinds.com
   skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 00736f0b-8715-45b7-888b-ced7aaa637bf
-  ws-opts:
-    headers:
-      Host: 71863cd408e0a1b6626012d168c0b94e.mobgslb.tbcache.com
-    path: /
-  xudp: true
-- cipher: aes-256-gcm
-  name: 节点-052
-  password: 72553320ae6bcc8f
-  port: 20210
-  server: 212.192.15.178
-  type: ss
+  sni: vs1.sonofthewinds.com
+  type: trojan
   udp: true
 - alterId: '0'
   cipher: auto
-  name: 节点-053
-  network: ws
-  port: 24187
-  server: 23.236.69.39
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 12a8ee36-5936-4449-90bd-b5eac6db4c1d
-  ws-opts:
+  http-opts:
     headers: {}
-    path: /
+    path:
+    - /
+  name: 节点-046
+  network: http
+  port: 52080
+  server: 38.246.226.240
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7d4bd961-230c-4b34-ab5d-05cf0dfb4ea5
   xudp: true
 proxy-groups:
 - name: AUTO
@@ -597,13 +503,6 @@ proxy-groups:
   - 节点-044
   - 节点-045
   - 节点-046
-  - 节点-047
-  - 节点-048
-  - 节点-049
-  - 节点-050
-  - 节点-051
-  - 节点-052
-  - 节点-053
   url: https://www.gstatic.com/generate_204
   interval: 300
   tolerance: 80
@@ -658,13 +557,6 @@ proxy-groups:
   - 节点-044
   - 节点-045
   - 节点-046
-  - 节点-047
-  - 节点-048
-  - 节点-049
-  - 节点-050
-  - 节点-051
-  - 节点-052
-  - 节点-053
 - name: GLOBAL
   type: select
   proxies: *id001
