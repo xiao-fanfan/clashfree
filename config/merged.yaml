@@ -336,21 +336,20 @@ proxies:
   port: 30001
   server: 36.33.35.105
   type: ss
-- client-fingerprint: chrome
+- cipher: aes-256-cfb
   name: 节点-037
-  network: ws
-  password: d83a390c-33c3-4577-9258-e062f8ebdc16
-  port: 443
-  server: 172.64.41.251
-  skip-cert-verify: false
-  sni: oa1.hyas.space
-  type: trojan
+  password: 1234!@#$
+  port: 1774
+  server: 49.254.204.134
+  type: ss
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/52.0.2743.116 Safari/537.36
-    path: /x7f9k2m4p8
+- cipher: aes-256-cfb
+  name: 节点-038
+  password: amazonskr05
+  port: 443
+  server: 18.191.124.183
+  type: ss
+  udp: true
 proxy-groups:
 - name: AUTO
   type: url-test
@@ -392,6 +391,7 @@ proxy-groups:
   - 节点-035
   - 节点-036
   - 节点-037
+  - 节点-038
   url: https://www.gstatic.com/generate_204
   interval: 300
   tolerance: 80
@@ -437,6 +437,7 @@ proxy-groups:
   - 节点-035
   - 节点-036
   - 节点-037
+  - 节点-038
 - name: GLOBAL
   type: select
   proxies: *id001
