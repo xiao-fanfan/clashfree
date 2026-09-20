@@ -336,34 +336,56 @@ proxies:
   port: 30001
   server: 36.33.35.105
   type: ss
-- alpn:
-  - h2
-  - http/1.1
-  alterId: 0
-  cipher: auto
+- cipher: chacha20-ietf-poly1305
   name: 节点-037
-  network: tcp
-  port: 2083
-  server: 80.93.217.193
-  servername: qbvlpz4b8508.dop100.com
-  skip-cert-verify: false
-  tls: true
-  type: vmess
+  password: a1-hsiyxkoJ_4Zsszu66wA
+  port: 2060
+  server: p1tun2.greewebservices.ir
+  type: ss
   udp: true
-  uuid: b4904296-5df5-430c-9849-22bef703174c
-  xudp: true
-- alterId: '0'
-  cipher: auto
+- client-fingerprint: chrome
   name: 节点-038
-  network: tcp
+  network: ws
+  password: humanity
   port: 443
-  server: irc.jahanrocket.sbs
+  server: 172.67.221.242
   skip-cert-verify: false
-  tls: false
-  type: vmess
+  sni: www.ignitelimit.com
+  type: trojan
   udp: true
-  uuid: 777c24bb-13ec-4c81-bb58-31344653e28c
-  xudp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/54.0.2840.99 Safari/537.36
+    path: /assignment
+- cipher: aes-256-cfb
+  name: 节点-039
+  password: amazonskr05
+  port: 443
+  server: 13.36.169.164
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 节点-040
+  password: amazonskr05
+  port: 443
+  server: 63.181.79.8
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 节点-041
+  password: amazonskr05
+  port: 443
+  server: 15.237.180.114
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 节点-042
+  password: amazonskr05
+  port: 443
+  server: 3.145.36.155
+  type: ss
+  udp: true
 proxy-groups:
 - name: AUTO
   type: url-test
@@ -406,6 +428,10 @@ proxy-groups:
   - 节点-036
   - 节点-037
   - 节点-038
+  - 节点-039
+  - 节点-040
+  - 节点-041
+  - 节点-042
   url: https://www.gstatic.com/generate_204
   interval: 300
   tolerance: 80
@@ -452,6 +478,10 @@ proxy-groups:
   - 节点-036
   - 节点-037
   - 节点-038
+  - 节点-039
+  - 节点-040
+  - 节点-041
+  - 节点-042
 - name: GLOBAL
   type: select
   proxies: *id001
