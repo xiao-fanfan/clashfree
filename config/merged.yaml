@@ -336,13 +336,6 @@ proxies:
   port: 30001
   server: 36.33.35.105
   type: ss
-- cipher: aes-256-cfb
-  name: 节点-037
-  password: amazonskr05
-  port: 443
-  server: 18.213.0.46
-  type: ss
-  udp: true
 proxy-groups:
 - name: AUTO
   type: url-test
@@ -383,7 +376,6 @@ proxy-groups:
   - 节点-034
   - 节点-035
   - 节点-036
-  - 节点-037
   url: https://www.gstatic.com/generate_204
   interval: 300
   tolerance: 80
@@ -428,7 +420,6 @@ proxy-groups:
   - 节点-034
   - 节点-035
   - 节点-036
-  - 节点-037
 - name: GLOBAL
   type: select
   proxies: *id001
