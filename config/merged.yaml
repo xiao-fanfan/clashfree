@@ -254,75 +254,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: aes-256-gcm
-  name: 节点-025
-  password: Butterfly123@qwe9527
-  port: 10001
-  server: 103.236.66.4
-  type: ss
-- cipher: aes-256-gcm
-  name: 节点-026
-  password: Butterfly123@qwe9527
-  port: 10006
-  server: 112.28.141.77
-  type: ss
-- name: 节点-027
-  network: tcp
-  password: BxceQaOe
-  port: 2716
-  server: 43.199.146.46
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 节点-028
-  network: tcp
-  password: BxceQaOe
-  port: 51391
-  server: 13.215.162.132
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 节点-029
-  network: tcp
-  password: BxceQaOe
-  port: 3893
-  server: 35.73.128.210
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- cipher: aes-256-gcm
-  name: 节点-030
-  password: Butterfly123@qwe9527
-  port: 40001
-  server: 103.236.66.4
-  type: ss
-- cipher: aes-256-gcm
-  name: 节点-031
-  password: Butterfly123@qwe9527
-  port: 40002
-  server: 103.236.66.4
-  type: ss
-- name: 节点-032
-  network: tcp
-  password: BxceQaOe
-  port: 41142
-  server: 54.251.190.150
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- cipher: aes-256-gcm
-  name: 节点-033
-  password: Butterfly123@qwe9527
-  port: 50001
-  server: 103.236.66.4
-  type: ss
-- cipher: aes-256-gcm
-  name: 节点-034
-  password: Butterfly123@qwe9527
-  port: 50003
-  server: 103.236.66.4
-  type: ss
-- name: 节点-035
+- name: 节点-025
   network: tcp
   password: BxceQaOe
   port: 443
@@ -330,36 +262,107 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- cipher: aes-256-gcm
-  name: 节点-036
-  password: Butterfly123@qwe9527
-  port: 30001
-  server: 36.33.35.105
+- alterId: 0
+  cipher: auto
+  name: 节点-026
+  network: ws
+  port: 443
+  server: 24864168545164.oylfmxz.cn
+  servername: 24864168545164.oylfmxz.cn
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
+  ws-opts:
+    headers:
+      Host: 24864168545164.oylfmxz.cn
+    path: /
+- cipher: aes-128-gcm
+  name: 节点-027
+  password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
+  plugin: obfs
+  plugin-opts:
+    host: 3c183f1f4eae079d708e817ae656417a.baidu.com
+    mode: http
+  port: 36602
+  server: gd.bjnet2.com
+  type: ss
+- cipher: aes-128-gcm
+  name: 节点-028
+  password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
+  plugin: obfs
+  plugin-opts:
+    host: 3c183f1f4eae079d708e817ae656417a.baidu.com
+    mode: http
+  port: 36602
+  server: gd2.bjnet2.com
+  type: ss
+- cipher: aes-128-gcm
+  name: 节点-029
+  password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
+  plugin: obfs
+  plugin-opts:
+    host: 3c183f1f4eae079d708e817ae656417a.baidu.com
+    mode: http
+  port: 36603
+  server: gd.bjnet2.com
+  type: ss
+- cipher: aes-128-gcm
+  name: 节点-030
+  password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
+  plugin: obfs
+  plugin-opts:
+    host: 3c183f1f4eae079d708e817ae656417a.baidu.com
+    mode: http
+  port: 36604
+  server: gd.bjnet2.com
+  type: ss
+- cipher: aes-128-gcm
+  name: 节点-031
+  password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
+  plugin: obfs
+  plugin-opts:
+    host: 3c183f1f4eae079d708e817ae656417a.baidu.com
+    mode: http
+  port: 36609
+  server: gd.bjnet2.com
+  type: ss
+- cipher: aes-128-gcm
+  name: 节点-032
+  password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
+  plugin: obfs
+  plugin-opts:
+    host: 3c183f1f4eae079d708e817ae656417a.baidu.com
+    mode: http
+  port: 36608
+  server: gd2.bjnet2.com
+  type: ss
+- cipher: aes-128-gcm
+  name: 节点-033
+  password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
+  plugin: obfs
+  plugin-opts:
+    host: 3c183f1f4eae079d708e817ae656417a.baidu.com
+    mode: http
+  port: 36608
+  server: gd.bjnet2.com
   type: ss
 - cipher: aes-256-cfb
-  name: 节点-037
+  name: 节点-034
   password: amazonskr05
   port: 443
-  server: 54.199.248.166
+  server: 54.227.186.25
   type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 节点-038
-  password: amazonskr05
-  port: 443
-  server: 54.147.191.121
-  type: ss
-  udp: true
 - alterId: '0'
   cipher: auto
-  name: 节点-039
+  name: 节点-035
   network: ws
-  port: 23462
-  server: 64.176.51.214
+  port: 81
+  server: 147.78.242.19
   type: vmess
-  uuid: 95c5abc1-018d-4628-89a7-25ab9c62ab74
+  uuid: 357b37cc-d0d2-47ef-aa1a-0a668447999e
   ws-opts:
-    path: /a15206
+    path: /
 proxy-groups:
 - name: AUTO
   type: url-test
@@ -399,10 +402,6 @@ proxy-groups:
   - 节点-033
   - 节点-034
   - 节点-035
-  - 节点-036
-  - 节点-037
-  - 节点-038
-  - 节点-039
   url: https://www.gstatic.com/generate_204
   interval: 300
   tolerance: 80
@@ -446,10 +445,6 @@ proxy-groups:
   - 节点-033
   - 节点-034
   - 节点-035
-  - 节点-036
-  - 节点-037
-  - 节点-038
-  - 节点-039
 - name: GLOBAL
   type: select
   proxies: *id001
