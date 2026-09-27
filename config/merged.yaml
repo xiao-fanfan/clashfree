@@ -347,22 +347,6 @@ proxies:
   port: 36608
   server: gd.bjnet2.com
   type: ss
-- cipher: aes-256-cfb
-  name: 节点-034
-  password: amazonskr05
-  port: 443
-  server: 54.227.186.25
-  type: ss
-- alterId: '0'
-  cipher: auto
-  name: 节点-035
-  network: ws
-  port: 81
-  server: 147.78.242.19
-  type: vmess
-  uuid: 357b37cc-d0d2-47ef-aa1a-0a668447999e
-  ws-opts:
-    path: /
 proxy-groups:
 - name: AUTO
   type: url-test
@@ -400,8 +384,6 @@ proxy-groups:
   - 节点-031
   - 节点-032
   - 节点-033
-  - 节点-034
-  - 节点-035
   url: https://www.gstatic.com/generate_204
   interval: 300
   tolerance: 80
@@ -443,8 +425,6 @@ proxy-groups:
   - 节点-031
   - 节点-032
   - 节点-033
-  - 节点-034
-  - 节点-035
 - name: GLOBAL
   type: select
   proxies: *id001
