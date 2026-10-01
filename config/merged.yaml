@@ -239,15 +239,387 @@ proxies:
   tls: false
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
-- cipher: aes-256-cfb
+- cipher: chacha20-ietf-poly1305
   name: 节点-023
+  password: ziOeKejhhw+fmWet+xvuJsVJH7U9DvSWq1hlqtaKv+I=
+  port: 43558
+  server: 130.49.189.158
+  type: ss
+- cipher: aes-256-gcm
+  name: 节点-024
+  password: eveaaTOb8ji8yntw2Z9yWUG0d6Ir8Ld8m3ymH8THdC5egiTH1mXCiBc0Skr7FibH
+  port: 9443
+  server: yyz-ca-01.blncvpn4u.cc
+  type: ss
+- cipher: aes-256-gcm
+  name: 节点-025
+  password: eveaaTOb8ji8yntw2Z9yWUG0d6Ir8Ld8m3ymH8THdC5egiTH1mXCiBc0Skr7FibH
+  port: 9443
+  server: 185.156.47.97
+  type: ss
+- cipher: aes-256-gcm
+  name: 节点-026
+  password: zDNVedRFPQexG9v
+  port: 445
+  server: 51.222.141.125
+  type: ss
+- cipher: aes-256-gcm
+  name: 节点-027
+  password: cdBIDV42DCwnfIN
+  port: 8118
+  server: 51.79.85.185
+  type: ss
+- cipher: aes-256-gcm
+  name: 节点-028
+  password: Y6R9pAtvxxzmGC
+  port: 5000
+  server: 51.222.200.165
+  type: ss
+- cipher: aes-256-gcm
+  name: 节点-029
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 51.222.136.236
+  type: ss
+- cipher: aes-256-gcm
+  name: 节点-030
+  password: Y6R9pAtvxxzmGC
+  port: 5601
+  server: 51.222.155.113
+  type: ss
+- cipher: aes-256-gcm
+  name: 节点-031
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  server: 51.222.155.32
+  type: ss
+- cipher: aes-256-gcm
+  name: 节点-032
+  password: cdBIDV42DCwnfIN
+  port: 8119
+  server: 51.79.64.198
+  type: ss
+- cipher: aes-256-gcm
+  name: 节点-033
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 51.79.49.116
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 节点-034
+  password: e8KgS8fD0yDqYFpgN4G5piCOt9aFyqA3
+  port: 8388
+  server: 132.243.175.144
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 节点-035
+  password: qItG8SueYQcP
+  port: 8388
+  server: 140.174.184.5
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 节点-036
+  password: WSyL4XTwNsdv
+  port: 8388
+  server: 108.181.121.226
+  type: ss
+- cipher: aes-128-gcm
+  name: 节点-037
+  password: f9300a9bf39ae0347c3a3bfbc4dd7754
+  port: 18285
+  server: 77.83.247.207
+  type: ss
+- cipher: aes-256-gcm
+  name: 节点-038
+  password: dHHIUyBuva3crUBRwpOXCA
+  port: 20076
+  server: 51.83.6.5
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 节点-039
+  password: BqnqToih0PbU
+  port: 8388
+  server: 51.255.13.232
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 节点-040
+  password: 8C5valhOd8vfwaTXUSZ6Zyb0Ip34lRR5z7P8az
+  port: 31348
+  server: 103.160.63.199
+  type: ss
+- cipher: aes-256-gcm
+  name: 节点-041
+  password: itzvpn@321
+  port: 8388
+  server: 57.131.48.45
+  type: ss
+- cipher: aes-256-gcm
+  name: 节点-042
+  password: 3eOFeNssde7PYYMv
+  port: 80
+  server: 84.247.155.196
+  type: ss
+- cipher: aes-128-gcm
+  name: 节点-043
+  password: shadowsocks
+  port: 443
+  server: 149.22.87.204
+  type: ss
+- cipher: aes-256-gcm
+  name: 节点-044
+  password: ac9c0a7b
+  port: 49642
+  server: ce1fc2d8.krkt.hkssip.com
+  type: ss
+- cipher: aes-256-gcm
+  name: 节点-045
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 141.164.45.187
+  type: ss
+- cipher: aes-128-gcm
+  name: 节点-046
+  password: ce45b16adec66e4a199d92b9689eae9f
+  port: 11469
+  server: 109.248.148.139
+  type: ss
+- cipher: aes-256-gcm
+  name: 节点-047
+  password: BWyPPTusFKhGgzKh
+  port: 8388
+  server: 64.177.90.30
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 节点-048
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  port: 990
+  server: 185.213.23.63
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 节点-049
+  password: mrs2e9a
+  port: 443
+  server: 54.36.174.140
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 节点-050
+  password: mrs2e9a
+  port: 443
+  server: 54.36.174.134
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 节点-051
+  password: QFWzCw2uX9B9i6qAYeFBIE
+  port: 443
+  server: 154.46.31.106
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 节点-052
+  password: 9epp3o9ng8ej59uv
+  port: 14249
+  server: 45.128.12.20
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 节点-053
+  password: XF0klw7870vXn3uQIxe19Q
+  port: 1080
+  server: 84.247.49.211
+  type: ss
+- cipher: aes-128-gcm
+  name: 节点-054
+  password: e5ec86c79d726d01bf0958087e0dd91f
+  port: 19743
+  server: 67.217.57.157
+  type: ss
+- cipher: aes-128-gcm
+  name: 节点-055
+  password: 50ce2ac177d8d8cdad6b4a68739e2ea0
+  port: 13627
+  server: 66.23.202.54
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 节点-056
+  password: tfAcRikawhNoZAhu
+  port: 8388
+  server: 139.84.247.164
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 节点-057
+  password: aduB9HGxQHjA2SBMRjkHX6
+  port: 443
+  server: 102.37.156.224
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 节点-058
+  password: Xsy8Ox4yOV3xLlpxtjzs3X
+  port: 16233
+  server: 102.133.165.160
+  type: ss
+- name: 节点-059
+  password: oiiaB38ywjEHCWRs_O_a_1113_Il_KeyyyHop_Bes1
+  port: 449
+  server: 109.206.241.10
+  sni: russiapower.accesscam.org
+  type: trojan
+- name: 节点-060
+  network: ws
+  password: humanity
+  port: 443
+  server: 185.255.179.166
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: /assignment
+- name: 节点-061
+  network: ws
+  password: humanity
+  port: 443
+  server: 185.225.68.232
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: /assignment
+- name: 节点-062
+  network: ws
+  password: humanity
+  port: 443
+  server: 45.87.41.18
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: /assignment
+- name: 节点-063
+  network: ws
+  password: humanity
+  port: 443
+  server: www.calmlunch.com
+  sni: www.calmlunch.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: /assignment
+- name: 节点-064
+  network: ws
+  password: humanity
+  port: 2053
+  server: 185.114.72.31
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: /assignment
+- name: 节点-065
+  network: ws
+  password: humanity
+  port: 443
+  server: 45.130.125.160
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: '%2Fassignment'
+- name: 节点-066
+  network: ws
+  password: humanity
+  port: 443
+  server: 185.220.100.168
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: /assignment
+- name: 节点-067
+  password: humanity
+  port: 443
+  server: 165.215.250.14
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: 节点-068
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.19.229.21
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: '%2Fassignment'
+- name: 节点-069
+  network: ws
+  password: humanity
+  port: 443
+  server: 212.183.88.136
+  sni: www.calmlunch.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: '%2Fassignment'
+- alpn:
+  - http/1.1
+  name: 节点-070
+  network: ws
+  password: Telegram_healer_config
+  port: 443
+  server: 104.21.70.21
+  sni: bjsa2ygfitzjtho8ucze29xf2m2q9c.g3fiajpf0erm9k3x6ww-yegzl2.workers.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: bjsa2ygfitzjtho8ucze29xf2m2q9c.g3fiajpf0erm9k3x6ww-yegzl2.workers.dev
+    path: /tr/J6IJuAAWkqyiEt8UkeRnVdLlkLIGukLr%3Fed%3D2560
+- name: 节点-071
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  port: 443
+  server: 104.18.32.87
+  type: trojan
+  ws-opts:
+    path: '%2Ftrojan'
+- name: 节点-072
+  network: ws
+  password: 3c6d1933-b22a-484b-ac8a-63e24f5fba75
+  port: 443
+  server: jp3.998998.best
+  skip-cert-verify: true
+  sni: nat11.outsidemyheart.space
+  type: trojan
+  ws-opts:
+    headers:
+      Host: nat11.outsidemyheart.space
+    path: /w4e5yh0p945y3
+- name: 节点-073
+  password: 5931134d1cde66bf83a54acdfebe7ab2
+  port: 443
+  server: 47.250.84.25
+  type: trojan
+- cipher: aes-256-cfb
+  name: 节点-074
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
 - alterId: 2
   cipher: auto
-  name: 节点-024
+  name: 节点-075
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -256,7 +628,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: 节点-025
+  name: 节点-076
   network: ws
   port: 443
   server: ADncdOvLHR4M1P36.v.3dns.vip
@@ -271,7 +643,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 节点-026
+  name: 节点-077
   network: ws
   port: 443
   server: kBONDXW9liFCi4h4.v.3dns.vip
@@ -286,7 +658,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 节点-027
+  name: 节点-078
   network: ws
   port: 443
   server: aZW0eunYVdvRe73k.v.3dns.vip
@@ -301,7 +673,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 节点-028
+  name: 节点-079
   network: ws
   port: 443
   server: syJ2gGUgMwBwQwQx.v.3dns.vip
@@ -316,7 +688,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 节点-029
+  name: 节点-080
   network: ws
   port: 443
   server: Z9FfBx3zs2q5O0BG.v.3dns.vip
@@ -331,7 +703,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 节点-030
+  name: 节点-081
   network: ws
   port: 443
   server: kQov7UKaDknXb8a3.v.3dns.vip
@@ -346,7 +718,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 节点-031
+  name: 节点-082
   network: ws
   port: 443
   server: kneNaKHeSXnZH259.v.3dns.vip
@@ -361,7 +733,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 节点-032
+  name: 节点-083
   network: ws
   port: 443
   server: ASaqYIDZa9WDQ9Kq.v.3dns.vip
@@ -376,7 +748,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 节点-033
+  name: 节点-084
   network: ws
   port: 443
   server: 6JiziO8PxQAXBAtZ.v.3dns.vip
@@ -391,7 +763,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 节点-034
+  name: 节点-085
   network: ws
   port: 443
   server: 8nTzyR5KNivfabaT.v.3dns.vip
@@ -406,7 +778,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 节点-035
+  name: 节点-086
   network: ws
   port: 443
   server: 53vXOVarmgcreAsv.v.3dns.vip
@@ -421,7 +793,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 节点-036
+  name: 节点-087
   network: ws
   port: 443
   server: bJ1Aa2ZyJxYamYuK.v.3dns.vip
@@ -434,194 +806,135 @@ proxies:
     headers:
       Host: bJ1Aa2ZyJxYamYuK.v.3dns.vip
     path: /ws-vmess
-- name: 节点-037
-  password: OnHLrkVqZVtZyulTwC4bHrIbW7GyUDttKVNGEYVR12Y=
-  port: 443
-  server: 192.236.151.43
+- name: 节点-088
+  network: tcp
+  password: AA885B42-133C-3828-FB69-E45105C06092
+  port: 12103
+  server: 7d0a2gz0-7a0c.aws-agent.net
   skip-cert-verify: true
-  sni: 192.236.151.43
+  sni: m.ctrip.com
+  type: trojan
+- name: 节点-089
+  network: tcp
+  password: AA885B42-133C-3828-FB69-E45105C06092
+  port: 10115
+  server: 7d0a2gz0-7a0c.aws-agent.net
+  skip-cert-verify: true
+  sni: m.ctrip.com
+  type: trojan
+- name: 节点-090
+  network: tcp
+  password: AA885B42-133C-3828-FB69-E45105C06092
+  port: 12107
+  server: 7d0a2gz0-7a0c.aws-agent.net
+  skip-cert-verify: true
+  sni: m.ctrip.com
+  type: trojan
+- name: 节点-091
+  network: tcp
+  password: AA885B42-133C-3828-FB69-E45105C06092
+  port: 12102
+  server: 7d0a2gz0-7a0c.aws-agent.net
+  skip-cert-verify: true
+  sni: m.ctrip.com
+  type: trojan
+- name: 节点-092
+  network: tcp
+  password: AA885B42-133C-3828-FB69-E45105C06092
+  port: 10125
+  server: 63182sh8-4d7b.aws-agent.net
+  skip-cert-verify: true
+  sni: m.ctrip.com
+  type: trojan
+- name: 节点-093
+  network: tcp
+  password: AA885B42-133C-3828-FB69-E45105C06092
+  port: 10135
+  server: 7d0a2gz0-7a0c.aws-agent.net
+  skip-cert-verify: true
+  sni: m.ctrip.com
+  type: trojan
+- name: 节点-094
+  network: tcp
+  password: AA885B42-133C-3828-FB69-E45105C06092
+  port: 10155
+  server: 63182sh8-4d7b.aws-agent.net
+  skip-cert-verify: true
+  sni: m.ctrip.com
+  type: trojan
+- name: 节点-095
+  network: tcp
+  password: AA885B42-133C-3828-FB69-E45105C06092
+  port: 12122
+  server: 63182sh8-4d7b.aws-agent.net
+  skip-cert-verify: true
+  sni: m.ctrip.com
+  type: trojan
+- name: 节点-096
+  network: tcp
+  password: AA885B42-133C-3828-FB69-E45105C06092
+  port: 12142
+  server: 7d0a2gz0-7a0c.aws-agent.net
+  skip-cert-verify: true
+  sni: m.ctrip.com
+  type: trojan
+- name: 节点-097
+  network: tcp
+  password: AA885B42-133C-3828-FB69-E45105C06092
+  port: 11171
+  server: 63182sh8-4d7b.aws-agent.net
+  skip-cert-verify: true
+  sni: m.ctrip.com
+  type: trojan
+- name: 节点-098
+  password: UX82473651
+  port: 443
+  server: alive-flea.rooster465.autos
+  skip-cert-verify: true
+  sni: alive-flea.rooster465.autos
   type: trojan
   udp: true
-- client-fingerprint: chrome
-  name: 节点-038
-  network: ws
-  password: humanity
+- name: 节点-099
+  password: Trojan@82164024
   port: 443
-  server: 188.114.97.7
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
+  server: ie.tronsg.com
+  skip-cert-verify: true
+  sni: ie.tronsg.com
+  type: trojan
+- name: 节点-100
+  password: Trojan@82164024
+  port: 443
+  server: mx.tronsg.com
+  skip-cert-verify: true
+  sni: mx.tronsg.com
+  type: trojan
+- name: 节点-101
+  password: Trojan@82164024
+  port: 443
+  server: se.tronsg.com
+  skip-cert-verify: true
+  sni: se.tronsg.com
+  type: trojan
+- name: 节点-102
+  password: Trojan@82164024
+  port: 443
+  server: th1.zestapp778.com
+  skip-cert-verify: true
+  sni: th1.zestapp778.com
+  type: trojan
+- name: 节点-103
+  network: ws
+  password: 54df124b-c11c-41b0-86da-9d642125671f
+  port: 2083
+  server: 91.193.59.194
+  skip-cert-verify: true
+  sni: vpn2.xiweini.dpdns.org
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J730GM Build/NRD90M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: 节点-039
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.36
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/64.0.3282.186 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: 节点-040
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.73.213
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/52.0.2743.116 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: 节点-041
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.19.229.21
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.94 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: 节点-042
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.26.15.137
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/533.4
-        (KHTML, like Gecko) Chrome/5.0.375.99 Safari/533.4
-    path: /assignment
-- client-fingerprint: chrome
-  name: 节点-043
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.117
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: 节点-044
-  network: ws
-  password: humanity
-  port: 443
-  server: www.ignitelimit.com
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.113 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: 节点-045
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.143
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/39.0.2171.95 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: 节点-046
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.185
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/56.0.2924.87 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: 节点-047
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.204
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.113 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: 节点-048
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.14
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1606 Build/MMB29M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: 节点-049
-  network: ws
-  password: humanity
-  port: 443
-  server: 216.24.57.1
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/56.0.2924.87 Safari/537.36
-    path: /assignment
+      Host: vpn2.xiweini.dpdns.org
+    path: /proxyip=156.154.245.83,45.76.244.88,38.65.9.110,131.143.251.20,203.88.112.62
 proxy-groups:
 - name: AUTO
   type: url-test
@@ -675,6 +988,60 @@ proxy-groups:
   - 节点-047
   - 节点-048
   - 节点-049
+  - 节点-050
+  - 节点-051
+  - 节点-052
+  - 节点-053
+  - 节点-054
+  - 节点-055
+  - 节点-056
+  - 节点-057
+  - 节点-058
+  - 节点-059
+  - 节点-060
+  - 节点-061
+  - 节点-062
+  - 节点-063
+  - 节点-064
+  - 节点-065
+  - 节点-066
+  - 节点-067
+  - 节点-068
+  - 节点-069
+  - 节点-070
+  - 节点-071
+  - 节点-072
+  - 节点-073
+  - 节点-074
+  - 节点-075
+  - 节点-076
+  - 节点-077
+  - 节点-078
+  - 节点-079
+  - 节点-080
+  - 节点-081
+  - 节点-082
+  - 节点-083
+  - 节点-084
+  - 节点-085
+  - 节点-086
+  - 节点-087
+  - 节点-088
+  - 节点-089
+  - 节点-090
+  - 节点-091
+  - 节点-092
+  - 节点-093
+  - 节点-094
+  - 节点-095
+  - 节点-096
+  - 节点-097
+  - 节点-098
+  - 节点-099
+  - 节点-100
+  - 节点-101
+  - 节点-102
+  - 节点-103
   url: https://www.gstatic.com/generate_204
   interval: 300
   tolerance: 80
@@ -732,6 +1099,60 @@ proxy-groups:
   - 节点-047
   - 节点-048
   - 节点-049
+  - 节点-050
+  - 节点-051
+  - 节点-052
+  - 节点-053
+  - 节点-054
+  - 节点-055
+  - 节点-056
+  - 节点-057
+  - 节点-058
+  - 节点-059
+  - 节点-060
+  - 节点-061
+  - 节点-062
+  - 节点-063
+  - 节点-064
+  - 节点-065
+  - 节点-066
+  - 节点-067
+  - 节点-068
+  - 节点-069
+  - 节点-070
+  - 节点-071
+  - 节点-072
+  - 节点-073
+  - 节点-074
+  - 节点-075
+  - 节点-076
+  - 节点-077
+  - 节点-078
+  - 节点-079
+  - 节点-080
+  - 节点-081
+  - 节点-082
+  - 节点-083
+  - 节点-084
+  - 节点-085
+  - 节点-086
+  - 节点-087
+  - 节点-088
+  - 节点-089
+  - 节点-090
+  - 节点-091
+  - 节点-092
+  - 节点-093
+  - 节点-094
+  - 节点-095
+  - 节点-096
+  - 节点-097
+  - 节点-098
+  - 节点-099
+  - 节点-100
+  - 节点-101
+  - 节点-102
+  - 节点-103
 - name: GLOBAL
   type: select
   proxies: *id001
