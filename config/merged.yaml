@@ -247,7 +247,7 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 节点-024
-  password: cZGr8nLHdf+FE5ZAw0Y/Rzsml4AyikGL481Pg7eBpsI=
+  password: lsu1v/3iNERwDDVwxCu5033KCUqQOoElYQul63kmqJ8=
   port: 43558
   server: 130.49.189.158
   type: ss
@@ -313,121 +313,119 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   name: 节点-035
+  password: PCnnH6SQSnfoS27
+  port: 8090
+  server: 149.104.107.41
+  type: ss
+- cipher: aes-256-gcm
+  name: 节点-036
   password: pKEW8JPByTVTLtM
   port: 443
   server: 38.54.59.102
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 节点-036
+  name: 节点-037
   password: x2A6AsyZ-rAllz0wbKHzWA
   port: 8388
   server: 178.253.16.185
   type: ss
 - cipher: aes-256-gcm
-  name: 节点-037
+  name: 节点-038
   password: lF3nRjH58koKTe-_VtABbg
   port: 20222
   server: 51.75.118.5
   type: ss
 - cipher: aes-256-gcm
-  name: 节点-038
+  name: 节点-039
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 185.176.206.9
   type: ss
 - cipher: aes-128-gcm
-  name: 节点-039
+  name: 节点-040
   password: shadowsocks
   port: 443
   server: 158.173.24.73
   type: ss
 - cipher: aes-256-gcm
-  name: 节点-040
+  name: 节点-041
   password: RexnBgU7EV5ADxG
   port: 7001
   server: 94.156.250.148
   type: ss
 - cipher: aes-256-gcm
-  name: 节点-041
+  name: 节点-042
   password: GEdoeeqLZtkJRgSa
   port: 8388
   server: 139.84.166.47
   type: ss
 - cipher: aes-256-gcm
-  name: 节点-042
+  name: 节点-043
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.63
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 节点-043
+  name: 节点-044
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.54
   type: ss
 - cipher: aes-256-gcm
-  name: 节点-044
+  name: 节点-045
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.72
   type: ss
 - cipher: aes-256-gcm
-  name: 节点-045
+  name: 节点-046
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.18
   type: ss
 - cipher: aes-256-gcm
-  name: 节点-046
+  name: 节点-047
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.99
   type: ss
 - cipher: aes-256-gcm
-  name: 节点-047
+  name: 节点-048
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.45
   type: ss
-  udp: true
 - cipher: aes-256-gcm
-  name: 节点-048
+  name: 节点-049
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.36
   type: ss
 - cipher: aes-256-gcm
-  name: 节点-049
+  name: 节点-050
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.81
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 节点-050
+  name: 节点-051
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.90
   type: ss
 - cipher: aes-256-gcm
-  name: 节点-051
+  name: 节点-052
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.27
   type: ss
-  udp: true
 - cipher: aes-256-gcm
-  name: 节点-052
+  name: 节点-053
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 185.164.175.81
-  type: ss
-- cipher: aes-256-gcm
-  name: 节点-053
-  password: qMvJmCbMduKUoeHq
-  port: 8388
-  server: 66.245.207.70
   type: ss
 - cipher: aes-256-gcm
   name: 节点-054
@@ -444,7 +442,7 @@ proxies:
 - cipher: aes-256-gcm
   name: 节点-056
   password: 3eOFeNssde7PYYMv
-  port: 80
+  port: 443
   server: 84.247.155.196
   type: ss
 - cipher: aes-128-gcm
@@ -455,69 +453,69 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   name: 节点-058
-  password: Y6R9pAtvxxzmGC
-  port: 8888
+  password: TEzjfAYq2IjtuoS
+  port: 6679
   server: 141.164.45.187
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 节点-059
-  password: AwW1fV6oDDQKh8r2znmptv59tPgt4eHVTgFaTqgKS2jiSdikJ7GyGCBYehDaK38S8yMgHFdbJqcTmRJSfYS5CFw345bNhFZa
-  port: 43385
-  server: 104.239.12.81
+  password: hNfeLCN3XzYgLFSAWo_fxOl4HC1gNw0V
+  port: 8044
+  server: dns22.m3hrzd.ir
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 节点-060
+  password: AwW1fV6oDDQKh8r2znmptv59tPgt4eHVTgFaTqgKS2jiSdikJ7GyGCBYehDaK38S8yMgHFdbJqcTmRJSfYS5CFw345bNhFZa
+  port: 43385
+  server: sql.popmintxo.cc
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 节点-061
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   port: 990
   server: 185.213.23.63
   type: ss
 - cipher: aes-256-gcm
-  name: 节点-061
+  name: 节点-062
   password: kDWvXYZoTBcGkC4
   port: 8882
   server: 149.104.109.252
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 节点-062
+  name: 节点-063
   password: 8z2OB_gvFvpKgjFi8s9Cvw
   port: 8388
   server: pol.rvpn.app
   type: ss
 - cipher: aes-256-gcm
-  name: 节点-063
+  name: 节点-064
   password: itzvpn@321
   port: 8388
   server: 51.83.192.80
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 节点-064
-  password: 6heexyz
-  port: 443
-  server: pl140.vpnbook.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: 节点-065
   password: 6heexyz
   port: 443
-  server: pl134.vpnbook.com
+  server: 54.36.174.140
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 节点-066
+  password: 6heexyz
+  port: 443
+  server: 54.36.174.134
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 节点-067
   password: U83u9OGpvSatIUW7LsWffr
   port: 64546
   server: 194.68.44.42
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 节点-067
+  name: 节点-068
   password: QFWzCw2uX9B9i6qAYeFBIE
   port: 443
   server: 154.46.31.106
-  type: ss
-- cipher: aes-256-gcm
-  name: 节点-068
-  password: NTiHBg64fsY8u8DbGrtypD9gPGSL386p
-  port: 18443
-  server: 185.22.155.121
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 节点-069
@@ -531,101 +529,107 @@ proxies:
   port: 8388
   server: msk2.rvpn.app
   type: ss
-- cipher: aes-256-gcm
+- cipher: chacha20-ietf-poly1305
   name: 节点-071
-  password: AxIYWtskJWIIaefW
-  port: 8388
-  server: 70.34.212.124
-  type: ss
-- cipher: aes-256-gcm
-  name: 节点-072
-  password: qpSevKaUXYQKvSjp
-  port: 8388
-  server: 139.180.220.175
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 节点-073
-  password: G9ZuLN5DE9qqouTZwYUcvYsDJx8gyL1nCu3N7yRZFjPmYKhzSi8GkpVuexmTHAz2uvcErKkex1K2ceR2GH3L444HRNnN1YpP
-  port: 49917
-  server: staging.lastilhame.monster
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 节点-074
-  password: tfAcRikawhNoZAhu
-  port: 8388
-  server: 139.84.247.164
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 节点-075
   password: aduB9HGxQHjA2SBMRjkHX6
   port: 443
   server: 102.37.156.224
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 节点-076
+  name: 节点-072
   password: Xsy8Ox4yOV3xLlpxtjzs3X
   port: 16233
   server: 102.133.165.160
   type: ss
-- name: 节点-077
+- name: 节点-073
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 45.63.30.142
   sni: connectwithemployerstohireyouridealteam.com
   type: trojan
-- name: 节点-078
+- name: 节点-074
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 216.238.104.154
   type: trojan
-- name: 节点-079
+- name: 节点-075
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 216.152.147.89
   type: trojan
-- name: 节点-080
+- name: 节点-076
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 216.152.147.79
+  type: trojan
+- name: 节点-077
+  network: tcp
+  password: 5t6i121em5lkmsmk
+  port: 46977
+  server: ca001.zestapp778.com
+  sni: ca001.zestapp778.com
+  type: trojan
+- name: 节点-078
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 208.69.78.19
   type: trojan
-- name: 节点-081
+- name: 节点-079
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 64.176.7.205
   type: trojan
-- name: 节点-082
+- name: 节点-080
+  password: happybirthdaydaniel
+  port: 25267
+  server: de-bots4.h1cloud.net
+  type: trojan
+- name: 节点-081
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 193.108.119.15
+  sni: courses.iloverussia2026.com
+  type: trojan
+- name: 节点-082
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 193.108.119.96
+  sni: learn.iloverussia2026.com
   type: trojan
 - name: 节点-083
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
-  server: 66.163.118.62
+  server: 66.163.118.244
+  sni: api.discovergreatjobsandadvanceyourcareer.com
   type: trojan
 - name: 节点-084
-  network: tcp
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 66.163.118.166
+  sni: learn.discovergreatjobsandadvanceyourcareer.com
+  type: trojan
+- name: 节点-085
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 66.163.118.251
   skip-cert-verify: false
   sni: resources.discovergreatjobsandadvanceyourcareer.com
   type: trojan
-- name: 节点-085
-  network: tcp
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 66.163.118.131
-  sni: www.discovergreatjobsandadvanceyourcareer.com
-  type: trojan
 - name: 节点-086
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
-  server: 66.163.118.166
-  skip-cert-verify: false
-  sni: learn.discovergreatjobsandadvanceyourcareer.com
+  server: 66.163.118.62
+  sni: courses.discovergreatjobsandadvanceyourcareer.com
   type: trojan
 - name: 节点-087
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 41184
+  server: ench-snet-app.w-ctrip.cn
+  skip-cert-verify: true
+  sni: cm.g.doubleclick.net
+  type: trojan
+  udp: true
+- name: 节点-088
   network: ws
   password: humanity
   port: 443
@@ -637,7 +641,7 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: /assignment
-- name: 节点-088
+- name: 节点-089
   network: ws
   password: humanity
   port: 443
@@ -648,10 +652,10 @@ proxies:
   ws-opts:
     headers:
       Host: www.calmlunch.com
-    path: '%2Fassignment'
+    path: /assignment
 - alpn:
   - v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus
-  name: 节点-089
+  name: 节点-090
   network: ws
   password: humanity
   port: 8443
@@ -663,7 +667,7 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: /assignment
-- name: 节点-090
+- name: 节点-091
   network: ws
   password: humanity
   port: 443
@@ -675,7 +679,7 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: /assignment
-- name: 节点-091
+- name: 节点-092
   network: ws
   password: humanity
   port: 443
@@ -686,7 +690,7 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: /assignment
-- name: 节点-092
+- name: 节点-093
   network: ws
   password: humanity
   port: 2053
@@ -698,7 +702,7 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: /assignment
-- name: 节点-093
+- name: 节点-094
   network: ws
   password: humanity
   port: 443
@@ -710,14 +714,14 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: '%2Fassignment'
-- name: 节点-094
+- name: 节点-095
   password: humanity
   port: 443
   server: 165.215.250.14
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: 节点-095
+- name: 节点-096
   network: ws
   password: humanity
   port: 443
@@ -729,149 +733,147 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: '%2Fassignment'
-- name: 节点-096
-  password: 5t6i121em5lkmsmk
-  port: 29813
-  server: en001.zestapp778.com
-  skip-cert-verify: true
-  sni: en001.zestapp778.com
-  type: trojan
 - name: 节点-097
+  password: 778f5385b4254495
+  port: 20014
+  server: hik160.pacemakere.com
+  skip-cert-verify: true
+  sni: hik160.pacemakere.com
+  type: trojan
+  udp: true
+- name: 节点-098
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 64.176.163.182
   skip-cert-verify: true
   sni: exploreeducationsectoropportunitiestodayandadvancecareers.com
   type: trojan
-- name: 节点-098
+- name: 节点-099
   password: 5t6i121em5lkmsmk
   port: 42733
   server: in002.zestapp778.com
-  skip-cert-verify: true
   sni: in002.zestapp778.com
   type: trojan
-- name: 节点-099
+- name: 节点-100
   password: d050aca3-9df2-4461-90ec-92373c1d7636
   port: 44184
   server: v2jp.k1.ssnss.live
   type: trojan
-- name: 节点-100
+- name: 节点-101
   password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
   port: 8886
   server: 45.32.52.173
   sni: 45.32.52.173
   type: trojan
-- name: 节点-101
+- name: 节点-102
   password: 5931134d1cde66bf83a54acdfebe7ab2
   port: 443
   server: 47.250.84.25
+  skip-cert-verify: true
   sni: moltbot.doctoroyy.net
   type: trojan
-- alpn:
-  - http/1.1
-  name: 节点-102
-  network: ws
-  password: humanity
+- name: 节点-103
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
-  server: 172.66.40.99
-  sni: www.trusteeforward.com
+  server: 70.34.252.255
+  sni: browseexecutivejobopeningsandenhanceleadershipcareer.com
   type: trojan
-  ws-opts:
-    headers:
-      Host: www.trusteeforward.com
-    path: '%2Fassignment'
-- alpn:
-  - http/1.1
-  name: 节点-103
-  network: ws
-  password: humanity
-  port: 443
-  server: 161.35.192.122
-  skip-cert-verify: false
-  sni: www.pleadcourt.org
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.pleadcourt.org
-    path: /assignment
 - name: 节点-104
-  password: humanity
-  port: 443
-  server: 95.85.32.57
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 15589
+  server: ench-snet-app.w-ctrip.cn
+  skip-cert-verify: true
+  sni: cm.g.doubleclick.net
   type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- alpn:
-  - http/1.1
-  name: 节点-105
-  network: ws
-  password: humanity
+- name: 节点-105
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
-  server: 188.226.181.61
-  skip-cert-verify: false
-  sni: www.pleadcourt.org
+  server: 149.28.130.108
+  sni: searchcreativejobsandshowcaseyourartistictalents.com
   type: trojan
-  ws-opts:
-    headers:
-      Host: www.pleadcourt.org
-    path: /assignment
 - name: 节点-106
-  password: humanity
-  port: 443
-  server: 219.76.13.177
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: 节点-107
   password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
   port: 8886
   server: 139.180.146.200
-  sni: 139.180.146.200
   type: trojan
+- name: 节点-107
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 45503
+  server: ench-snet-app.w-ctrip.cn
+  skip-cert-verify: true
+  sni: cm.g.doubleclick.net
+  type: trojan
+  udp: true
 - name: 节点-108
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 167.88.61.193
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 47786
+  server: ench-snet-app.w-ctrip.cn
+  skip-cert-verify: true
+  sni: cm.g.doubleclick.net
   type: trojan
+  udp: true
 - name: 节点-109
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 170.101.101.53
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 38994
+  server: ench-snet-app.w-ctrip.cn
+  skip-cert-verify: true
+  sni: cm.g.doubleclick.net
   type: trojan
+  udp: true
 - name: 节点-110
-  password: MiTiVPN
-  port: 443
-  server: 167.82.64.120
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 35929
+  server: ench-snet-app.w-ctrip.cn
+  skip-cert-verify: true
+  sni: cm.g.doubleclick.net
   type: trojan
+  udp: true
 - name: 节点-111
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  password: va3E77I9fZCnCVcGKkxBCfz5
   port: 443
-  server: 169.197.140.218
+  server: 186.241.105.213
+  skip-cert-verify: false
+  sni: vpn.liumr.top
   type: trojan
 - name: 节点-112
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
-  server: 169.197.140.169
+  server: 167.88.61.193
   type: trojan
 - name: 节点-113
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
-  server: 66.163.112.142
+  server: 170.101.101.53
+  sni: www.explorecreativejobsandenhanceyourcareerportfolio.com
   type: trojan
 - name: 节点-114
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
-  server: 169.197.140.214
+  server: 170.101.101.19
+  sni: learn.explorecreativejobsandenhanceyourcareerportfolio.com
+  type: trojan
+- name: 节点-115
+  password: 5t6i121em5lkmsmk
+  port: 57277
+  server: us001.zestapp778.com
+  skip-cert-verify: true
+  sni: us001.zestapp778.com
+  type: trojan
+- name: 节点-116
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 170.101.101.67
+  sni: courses.explorecreativejobsandenhanceyourcareerportfolio.com
   type: trojan
 - cipher: aes-256-cfb
-  name: 节点-115
+  name: 节点-117
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
 - alterId: 2
   cipher: auto
-  name: 节点-116
+  name: 节点-118
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -880,7 +882,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: 节点-117
+  name: 节点-119
   network: ws
   port: 443
   server: ADncdOvLHR4M1P36.v.3dns.vip
@@ -895,7 +897,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 节点-118
+  name: 节点-120
   network: ws
   port: 443
   server: kBONDXW9liFCi4h4.v.3dns.vip
@@ -910,7 +912,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 节点-119
+  name: 节点-121
   network: ws
   port: 443
   server: aZW0eunYVdvRe73k.v.3dns.vip
@@ -925,7 +927,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 节点-120
+  name: 节点-122
   network: ws
   port: 443
   server: syJ2gGUgMwBwQwQx.v.3dns.vip
@@ -940,7 +942,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 节点-121
+  name: 节点-123
   network: ws
   port: 443
   server: Z9FfBx3zs2q5O0BG.v.3dns.vip
@@ -955,7 +957,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 节点-122
+  name: 节点-124
   network: ws
   port: 443
   server: kQov7UKaDknXb8a3.v.3dns.vip
@@ -970,7 +972,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 节点-123
+  name: 节点-125
   network: ws
   port: 443
   server: kneNaKHeSXnZH259.v.3dns.vip
@@ -985,7 +987,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 节点-124
+  name: 节点-126
   network: ws
   port: 443
   server: ASaqYIDZa9WDQ9Kq.v.3dns.vip
@@ -1000,7 +1002,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 节点-125
+  name: 节点-127
   network: ws
   port: 443
   server: 6JiziO8PxQAXBAtZ.v.3dns.vip
@@ -1015,7 +1017,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 节点-126
+  name: 节点-128
   network: ws
   port: 443
   server: 8nTzyR5KNivfabaT.v.3dns.vip
@@ -1030,7 +1032,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 节点-127
+  name: 节点-129
   network: ws
   port: 443
   server: 53vXOVarmgcreAsv.v.3dns.vip
@@ -1045,7 +1047,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: 节点-128
+  name: 节点-130
   network: ws
   port: 443
   server: bJ1Aa2ZyJxYamYuK.v.3dns.vip
@@ -1058,7 +1060,7 @@ proxies:
     headers:
       Host: bJ1Aa2ZyJxYamYuK.v.3dns.vip
     path: /ws-vmess
-- name: 节点-129
+- name: 节点-131
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12103
@@ -1066,7 +1068,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 节点-130
+- name: 节点-132
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10115
@@ -1074,7 +1076,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 节点-131
+- name: 节点-133
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12107
@@ -1082,7 +1084,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 节点-132
+- name: 节点-134
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12102
@@ -1090,7 +1092,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 节点-133
+- name: 节点-135
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10125
@@ -1098,7 +1100,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 节点-134
+- name: 节点-136
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10135
@@ -1106,7 +1108,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 节点-135
+- name: 节点-137
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 10155
@@ -1114,7 +1116,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 节点-136
+- name: 节点-138
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12122
@@ -1122,7 +1124,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 节点-137
+- name: 节点-139
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 12142
@@ -1130,7 +1132,7 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 节点-138
+- name: 节点-140
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
   port: 11171
@@ -1138,161 +1140,156 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 节点-139
-  network: ws
-  password: humanity
+- client-fingerprint: chrome
+  name: 节点-141
+  network: tcp
+  password: va3E77I9fZCnCVcGKkxBCfz5
   port: 443
-  server: 208.68.180.204
+  server: vpn.liumr.top
+  servername: vpn.liumr.top
   skip-cert-verify: true
-  sni: www.cordweave.com
+  sni: vpn.liumr.top
+  tls: true
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      Host: www.cordweave.com
-    path: /assignment
-- alterId: 0
+- name: 节点-142
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 54815
+  server: ench-snet-app.w-ctrip.cn
+  skip-cert-verify: true
+  sni: cm.g.doubleclick.net
+  type: trojan
+  udp: true
+- name: 节点-143
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 38963
+  server: ench-snet-app.w-ctrip.cn
+  skip-cert-verify: true
+  sni: cm.g.doubleclick.net
+  type: trojan
+  udp: true
+- name: 节点-144
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 29628
+  server: ench-snet-app.w-ctrip.cn
+  skip-cert-verify: true
+  sni: cm.g.doubleclick.net
+  type: trojan
+  udp: true
+- name: 节点-145
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 22003
+  server: ench-snet-app.w-ctrip.cn
+  skip-cert-verify: true
+  sni: cm.g.doubleclick.net
+  type: trojan
+  udp: true
+- name: 节点-146
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 26429
+  server: ench-snet-app.w-ctrip.cn
+  skip-cert-verify: true
+  sni: cm.g.doubleclick.net
+  type: trojan
+  udp: true
+- name: 节点-147
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 16932
+  server: ench-snet-app.w-ctrip.cn
+  skip-cert-verify: true
+  sni: cm.g.doubleclick.net
+  type: trojan
+  udp: true
+- alpn:
+  - ''
+  alterId: 0
   cipher: auto
-  name: 节点-140
-  network: ws
-  port: 53617
-  server: az-1.linkaa.xyz
-  servername: az-1.linkaa.xyz
-  skip-cert-verify: false
+  name: 节点-148
+  port: 30553
+  server: 109.70.74.113
+  skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 6E571484-4166-4699-8F58-B34A1823691F
+  uuid: 8846e18f-109a-4d8f-a32f-1a41fd6afc8e
+- alterId: 0
+  cipher: auto
+  name: 节点-149
+  network: ws
+  port: 23026
+  server: 47.244.120.197
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b9de1bc9-baa7-41ac-86f7-ccd59695cb21
   ws-opts:
     headers:
-      Host: az-1.linkaa.xyz
-    path: /game/resources
-  xudp: true
-- name: 节点-141
-  network: ws
-  password: humanity
-  port: 443
-  server: 103.224.84.7
-  servername: www.cordweave.com
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: 节点-142
-  network: ws
-  password: humanity
-  port: 443
-  server: 185.82.218.224
-  servername: www.cordweave.com
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: 节点-143
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.245.194
-  servername: www.cordweave.com
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: 节点-144
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.66.0.172
-  servername: www.cordweave.com
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- alterId: '0'
+      Host: 47.244.120.197
+    path: /arki
+- alterId: 0
   cipher: auto
-  name: 节点-145
+  name: 节点-150
   network: ws
   port: 443
-  server: dBcaeS0WKJRoAhsQ.v.3dns.vip
-  servername: dBcaeS0WKJRoAhsQ.v.3dns.vip
-  skip-cert-verify: false
+  server: 47.243.153.153
+  skip-cert-verify: true
   tls: true
   type: vmess
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
   ws-opts:
     headers:
-      Host: dBcaeS0WKJRoAhsQ.v.3dns.vip
+      Host: i2psm3knof5qjjix.v.3dns.vip
     path: /ws-vmess
-  xudp: true
-- client-fingerprint: chrome
-  name: 节点-146
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.64.229.7
-  skip-cert-verify: false
-  sni: www.cordweave.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/52.0.2743.116 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: 节点-147
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.17.167.134
-  skip-cert-verify: false
-  sni: www.cordweave.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.89 Safari/537.36
-    path: '%2Fassignment'
-- name: 节点-148
-  network: ws
-  password: humanity
-  port: 443
-  server: 141.98.233.6
+- name: 节点-151
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 53004
+  server: ench-snet-app.w-ctrip.cn
   skip-cert-verify: true
-  sni: www.cordweave.com
+  sni: cm.g.doubleclick.net
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      Host: www.cordweave.com
-    path: /assignment
-- name: 节点-149
-  network: ws
-  password: humanity
-  port: 8443
-  server: 185.114.72.31
+- name: 节点-152
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 43638
+  server: ench-snet-app.w-ctrip.cn
   skip-cert-verify: true
-  sni: www.cordweave.com
+  sni: cm.g.doubleclick.net
   type: trojan
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 节点-153
+  network: ws
+  port: 443
+  server: 8.217.254.88
+  servername: 2b9hwy8ocx7q74nm.v.3dns.vip
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
   ws-opts:
     headers:
-      Host: www.cordweave.com
-    path: /assignment
+      Host: 2b9hwy8ocx7q74nm.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: 节点-154
+  network: ws
+  port: 443
+  server: 47.243.65.243
+  servername: lcv8v9l7oyamxxfz.v.3dns.vip
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  ws-opts:
+    headers:
+      Host: lcv8v9l7oyamxxfz.v.3dns.vip
+    path: /ws-vmess
 - alpn:
   - ''
   alterId: 0
@@ -1304,7 +1301,7 @@ proxies:
     method: GET
     path:
     - /QQqun-737805443
-  name: 节点-150
+  name: 节点-155
   network: http
   port: 52080
   server: 47.242.81.94
@@ -1313,531 +1310,168 @@ proxies:
   type: vmess
   udp: true
   uuid: e47b9f77-60e4-4738-8d53-772b6002e146
-- alterId: 0
+- alterId: 1
   cipher: auto
-  name: 节点-151
-  network: ws
-  port: 443
-  server: 8.217.186.60
-  servername: euu1yalfmcqvljex.v.3dns.vip
+  name: 节点-156
+  port: 28787
+  server: qdiysly-g05.jp06-jz-vm0.entry.fr0528.art
+  servername: qdiysly-g05.jp06-jz-vm0.entry.fr0528.art
   skip-cert-verify: true
   tls: true
   type: vmess
   udp: true
-  uuid: d237ab38-1974-4b36-94a3-0665ce8587b9
+  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
+- name: 节点-157
+  password: ef95390a-0bcb-45b8-a2bc-3ab33bf0e297
+  port: 40014
+  server: zz.jp01.fogvip-zz.uk
+  skip-cert-verify: true
+  sni: ld.jp01.yuiuingkig.icu
+  type: trojan
+  udp: true
+- alpn:
+  - ''
+  alterId: 0
+  cipher: auto
+  name: 节点-158
+  network: ws
+  port: 443
+  server: JP032008.ssgreen.org
+  servername: JP032008.ssgreen.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 9ddbe6b7-8ad5-43d5-b30a-35e35b633103
   ws-opts:
     headers:
-      Host: euu1yalfmcqvljex.v.3dns.vip
-    path: /ws-vmess
+      Host: JP032008.ssgreen.org
+    path: /wes
+- cipher: aes-256-gcm
+  name: 节点-159
+  password: cCMJgJTA3BA489YUYrFq7XHXSiSpWlLa
+  port: 18443
+  server: 46.17.46.27
+  type: ss
+  udp: true
+- name: 节点-160
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 42338
+  server: ench-snet-app.w-ctrip.cn
+  skip-cert-verify: true
+  sni: cm.g.doubleclick.net
+  type: trojan
+  udp: true
+- name: 节点-161
+  password: ef95390a-0bcb-45b8-a2bc-3ab33bf0e297
+  port: 40013
+  server: zz.xinjp01.fogvip-zz.uk
+  skip-cert-verify: true
+  sni: ld.xinjp01.yuiuingkig.icu
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 节点-152
+  name: 节点-162
   network: ws
   port: 443
-  server: 47.243.194.125
+  server: cf.0sm.com
+  servername: vmess.lbw666.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vmess
   udp: true
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  ws-opts:
+    headers:
+      Host: vmess.lbw666.dpdns.org
+    path: /ws
+- name: 节点-163
+  password: ef95390a-0bcb-45b8-a2bc-3ab33bf0e297
+  port: 40044
+  server: zz.usa02.fogvip-zz.uk
+  skip-cert-verify: true
+  sni: ld.meiguo02.yuiuingkig.icu
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 节点-164
+  network: ws
+  port: 44867
+  server: 47.244.120.197
+  tls: false
+  type: vmess
+  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
+  ws-opts:
+    path: /arki
+- alterId: 0
+  cipher: auto
+  name: 节点-165
+  network: ws
+  port: 443
+  server: i2psm3knof5qjjix.v.3dns.vip
+  tls: true
+  type: vmess
   uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
   ws-opts:
     headers:
-      Host: nycqg19zkwacpm1b.v.3dns.vip
+      Host: i2psm3knof5qjjix.v.3dns.vip
     path: /ws-vmess
-- name: 节点-153
-  network: ws
-  password: humanity
-  port: 443
-  server: 179.255.99.31
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.cordweave.com
-    path: /assignment
-- name: 节点-154
-  network: ws
-  password: humanity
-  port: 443
-  server: 78.40.209.33
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.cordweave.com
-    path: /assignment
-- name: 节点-155
-  network: ws
-  password: humanity
-  port: 443
-  server: 188.255.156.209
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.cordweave.com
-    path: /assignment
-- name: 节点-156
-  network: ws
-  password: humanity
-  port: 443
-  server: 213.165.55.4
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.cordweave.com
-    path: /assignment
-- name: 节点-157
-  network: ws
-  password: humanity
-  port: 443
-  server: 179.255.126.253
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.cordweave.com
-    path: /assignment
-- name: 节点-158
-  network: ws
-  password: humanity
-  port: 443
-  server: 52.194.44.56
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.cordweave.com
-    path: /assignment
-- name: 节点-159
-  network: ws
-  password: humanity
-  port: 443
-  server: 179.253.241.115
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.cordweave.com
-    path: /assignment
-- name: 节点-160
-  network: ws
-  password: humanity
-  port: 443
-  server: 212.2.227.187
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.cordweave.com
-    path: /assignment
-- name: 节点-161
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.67.74.177
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.cordweave.com
-    path: /assignment
-- name: 节点-162
-  network: ws
-  password: humanity
-  port: 443
-  server: 179.255.111.93
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.cordweave.com
-    path: /assignment
-- name: 节点-163
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.104.81.253
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.cordweave.com
-    path: /assignment
-- name: 节点-164
-  network: ws
-  password: humanity
-  port: 443
-  server: 93.86.12.49
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.cordweave.com
-    path: /assignment
-- name: 节点-165
-  network: ws
-  password: humanity
-  port: 443
-  server: 173.242.51.189
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.cordweave.com
-    path: /assignment
 - name: 节点-166
-  network: ws
-  password: humanity
-  port: 443
-  server: 153.56.171.216
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 41495
+  server: ench-snet-app.w-ctrip.cn
   skip-cert-verify: true
-  sni: www.cordweave.com
+  sni: cm.g.doubleclick.net
   type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.cordweave.com
-    path: /assignment
 - name: 节点-167
-  network: ws
-  password: humanity
-  port: 8443
-  server: 206.223.244.33
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 18295
+  server: ench-snet-app.w-ctrip.cn
   skip-cert-verify: true
-  sni: www.cordweave.com
+  sni: cm.g.doubleclick.net
   type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.cordweave.com
-    path: /assignment
 - name: 节点-168
-  network: ws
-  password: humanity
-  port: 443
-  server: 82.26.198.25
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 24914
+  server: ench-snet-app.w-ctrip.cn
   skip-cert-verify: true
-  sni: www.cordweave.com
+  sni: cm.g.doubleclick.net
   type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.cordweave.com
-    path: /assignment
 - name: 节点-169
-  network: ws
-  password: humanity
-  port: 443
-  server: 198.41.216.1
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 18572
+  server: ench-snet-app.w-ctrip.cn
   skip-cert-verify: true
-  sni: www.cordweave.com
+  sni: cm.g.doubleclick.net
   type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.cordweave.com
-    path: /assignment
-- name: 节点-170
-  network: ws
-  password: humanity
-  port: 2053
-  server: 178.104.197.49
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.cordweave.com
-    path: /assignment
-- name: 节点-171
-  network: ws
-  password: humanity
-  port: 443
-  server: 35.241.172.224
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.cordweave.com
-    path: /assignment
-- name: 节点-172
-  network: ws
-  password: humanity
-  port: 443
-  server: 179.255.127.92
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.cordweave.com
-    path: /assignment
-- name: 节点-173
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.64.153.224
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.cordweave.com
-    path: /assignment
-- name: 节点-174
-  network: ws
-  password: humanity
-  port: 443
-  server: 179.255.102.54
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.cordweave.com
-    path: /assignment
-- name: 节点-175
-  network: ws
-  password: humanity
-  port: 443
-  server: 179.255.115.22
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.cordweave.com
-    path: /assignment
-- name: 节点-176
-  network: ws
-  password: humanity
-  port: 443
-  server: 89.36.137.173
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.cordweave.com
-    path: /assignment
-- name: 节点-177
-  network: ws
-  password: humanity
-  port: 443
-  server: 202.50.55.76
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.cordweave.com
-    path: /assignment
-- name: 节点-178
-  network: ws
-  password: humanity
-  port: 2053
-  server: 194.135.119.82
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.cordweave.com
-    path: /assignment
-- name: 节点-179
-  network: ws
-  password: humanity
+- cipher: chacha20-ietf-poly1305
+  name: 节点-170
+  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
   port: 8443
-  server: 202.61.226.121
+  server: 18.143.185.164
+  type: ss
+- name: 节点-171
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 37212
+  server: ench-snet-app.w-ctrip.cn
   skip-cert-verify: true
-  sni: www.cordweave.com
+  sni: cm.g.doubleclick.net
   type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.cordweave.com
-    path: /assignment
-- name: 节点-180
-  network: ws
-  password: humanity
+- name: 节点-172
+  password: b17e9b52db9623bd6c16eea3d7adb5b3
+  port: 47966
+  server: ench-snet-app.w-ctrip.cn
+  skip-cert-verify: true
+  sni: cm.g.doubleclick.net
+  type: trojan
+- cipher: aes-256-gcm
+  name: 节点-173
+  password: 6lb9wr4ibspbl022
   port: 443
-  server: 130.12.46.156
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.cordweave.com
-    path: /assignment
-- name: 节点-181
-  network: ws
-  password: humanity
-  port: 443
-  server: 91.196.32.217
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.cordweave.com
-    path: /assignment
-- name: 节点-182
-  network: ws
-  password: humanity
-  port: 443
-  server: 179.255.132.69
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.cordweave.com
-    path: /assignment
-- name: 节点-183
-  network: ws
-  password: humanity
-  port: 443
-  server: 23.246.154.144
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.cordweave.com
-    path: /assignment
-- name: 节点-184
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.240.177
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.cordweave.com
-    path: /assignment
-- name: 节点-185
-  network: ws
-  password: humanity
-  port: 443
-  server: 179.255.127.209
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.cordweave.com
-    path: /assignment
-- name: 节点-186
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.64.151.20
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.cordweave.com
-    path: /assignment
-- name: 节点-187
-  network: ws
-  password: humanity
-  port: 443
-  server: 93.85.236.9
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.cordweave.com
-    path: /assignment
-- name: 节点-188
-  network: ws
-  password: humanity
-  port: 443
-  server: 77.221.139.114
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.cordweave.com
-    path: /assignment
-- name: 节点-189
-  network: ws
-  password: humanity
-  port: 443
-  server: 194.114.138.162
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.cordweave.com
-    path: /assignment
-- name: 节点-190
-  network: ws
-  password: humanity
-  port: 443
-  server: 179.255.136.143
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.cordweave.com
-    path: /assignment
+  server: b2friday.buzrel.ir
+  type: ss
 proxy-groups:
 - name: AUTO
   type: url-test
@@ -2015,23 +1649,6 @@ proxy-groups:
   - 节点-171
   - 节点-172
   - 节点-173
-  - 节点-174
-  - 节点-175
-  - 节点-176
-  - 节点-177
-  - 节点-178
-  - 节点-179
-  - 节点-180
-  - 节点-181
-  - 节点-182
-  - 节点-183
-  - 节点-184
-  - 节点-185
-  - 节点-186
-  - 节点-187
-  - 节点-188
-  - 节点-189
-  - 节点-190
   url: https://www.gstatic.com/generate_204
   interval: 300
   tolerance: 80
@@ -2213,23 +1830,6 @@ proxy-groups:
   - 节点-171
   - 节点-172
   - 节点-173
-  - 节点-174
-  - 节点-175
-  - 节点-176
-  - 节点-177
-  - 节点-178
-  - 节点-179
-  - 节点-180
-  - 节点-181
-  - 节点-182
-  - 节点-183
-  - 节点-184
-  - 节点-185
-  - 节点-186
-  - 节点-187
-  - 节点-188
-  - 节点-189
-  - 节点-190
 - name: GLOBAL
   type: select
   proxies: *id001
