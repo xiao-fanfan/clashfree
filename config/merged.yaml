@@ -301,27 +301,27 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   name: 节点-033
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  server: 51.79.49.116
-  type: ss
-- cipher: aes-256-gcm
-  name: 节点-034
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 23.166.88.127
   type: ss
 - cipher: aes-256-gcm
-  name: 节点-035
+  name: 节点-034
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 186.190.215.251
   type: ss
 - cipher: aes-256-gcm
-  name: 节点-036
+  name: 节点-035
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 79.127.184.104
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 节点-036
+  password: zZMNTGpPl38ASlbI1EKOBJ
+  port: 46303
+  server: 135.220.178.46
   type: ss
 - cipher: aes-256-gcm
   name: 节点-037
@@ -347,370 +347,449 @@ proxies:
   port: 19999
   server: 193.108.119.2
   type: ss
-- cipher: aes-256-gcm
+- cipher: aes-128-gcm
   name: 节点-041
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 66.163.118.103
+  password: cac96c2692d85bc2dceec378cea6c83f
+  port: 10840
+  server: 108.181.71.165
   type: ss
 - cipher: aes-256-gcm
   name: 节点-042
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
-  server: 167.17.71.167
+  server: 66.163.118.103
   type: ss
 - cipher: aes-256-gcm
   name: 节点-043
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
+  server: 167.17.71.167
+  type: ss
+- cipher: aes-256-gcm
+  name: 节点-044
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
   server: 79.127.139.242
   type: ss
 - cipher: aes-128-gcm
-  name: 节点-044
+  name: 节点-045
   password: cd706a104284a70f9cffe6ac1df63c18
   port: 12798
   server: 193.148.19.214
   type: ss
 - cipher: aes-256-gcm
-  name: 节点-045
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 23.162.152.22
-  type: ss
-- cipher: aes-256-gcm
   name: 节点-046
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 38.109.228.110
+  password: DgMywXKqojHXeuXY8hOJaYGPFcjweCIJeD5cdg/cUUY=
+  port: 40647
+  server: 213.176.92.148
   type: ss
-- cipher: aes-256-gcm
+- cipher: chacha20-ietf-poly1305
   name: 节点-047
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 167.17.64.27
+  password: byX4-DV0C42PLFTWQhMTAQ63mZ8qrDRB
+  port: 1352
+  server: dns24.m3hrzd.ir
   type: ss
 - cipher: aes-256-gcm
   name: 节点-048
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 172.99.189.142
+  password: 3411b0af-589e-40f3-b8d5-d2e04ce19fa9
+  port: 21191
+  server: c17b957c5a76ec76.lebufflonfermegroup.us
   type: ss
-- cipher: aes-256-gcm
+- cipher: chacha20-ietf-poly1305
   name: 节点-049
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 167.17.64.175
+  password: 29irqk0paakcx19v
+  port: 8080
+  server: 51.83.61.102
   type: ss
 - cipher: aes-256-gcm
   name: 节点-050
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
-  server: 167.17.64.22
+  server: 23.162.152.22
   type: ss
-- cipher: chacha20-ietf-poly1305
+- cipher: aes-256-gcm
   name: 节点-051
-  password: 8nrpt2il04ptci2j
-  port: 8080
-  server: 54.37.240.40
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 38.109.228.110
   type: ss
 - cipher: aes-256-gcm
   name: 节点-052
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
-  server: 198.244.201.129
+  server: 167.17.64.27
   type: ss
 - cipher: aes-256-gcm
   name: 节点-053
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
-  server: 198.244.202.215
+  server: 172.99.189.142
   type: ss
 - cipher: aes-256-gcm
   name: 节点-054
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
-  server: 142.202.51.22
+  server: 167.17.64.175
   type: ss
 - cipher: aes-256-gcm
   name: 节点-055
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
+  server: 167.17.64.22
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 节点-056
+  password: 8nrpt2il04ptci2j
+  port: 8080
+  server: 54.37.240.40
+  type: ss
+- cipher: aes-256-gcm
+  name: 节点-057
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 198.244.201.129
+  type: ss
+- cipher: aes-256-gcm
+  name: 节点-058
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 198.244.202.215
+  type: ss
+- cipher: aes-256-gcm
+  name: 节点-059
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 142.202.51.22
+  type: ss
+- cipher: aes-256-gcm
+  name: 节点-060
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
   server: 38.114.120.221
   type: ss
 - cipher: aes-256-gcm
-  name: 节点-056
+  name: 节点-061
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 185.176.206.9
   type: ss
 - cipher: aes-128-gcm
-  name: 节点-057
+  name: 节点-062
   password: shadowsocks
   port: 443
   server: 158.173.24.73
   type: ss
 - cipher: aes-256-gcm
-  name: 节点-058
+  name: 节点-063
   password: RexnBgU7EV5ADxG
   port: 7001
   server: 94.156.250.148
   type: ss
 - cipher: aes-128-gcm
-  name: 节点-059
+  name: 节点-064
+  password: 3411b0af-589e-40f3-b8d5-d2e04ce19fa9
+  port: 40011
+  server: c17b957c5a76ec76.lebufflonfermegroup.us
+  type: ss
+- cipher: aes-256-gcm
+  name: 节点-065
+  password: AMok40FfaM+Ikwre16psBpVk6JHxsQZw
+  port: 8388
+  server: 209.248.57.105
+  type: ss
+- cipher: aes-128-gcm
+  name: 节点-066
+  password: 3411b0af-589e-40f3-b8d5-d2e04ce19fa9
+  port: 40010
+  server: c17b957c5a76ec76.lebufflonfermegroup.us
+  type: ss
+- cipher: aes-128-gcm
+  name: 节点-067
   password: 881cf39affc5286799a585f1acd24d11
   port: 17456
   server: 146.70.90.198
   type: ss
+- cipher: xchacha20-ietf-poly1305
+  name: 节点-068
+  password: tfvsLbsXV9PdNmxPA4zaWr7EOezLjv3dXejQq2Y5sXA=
+  port: 36542
+  server: dlc.deltapc.digital
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 节点-069
+  password: byX4-DV0C42PLFTWQhMTAQ63mZ8qrDRB
+  port: 1349
+  server: dns24.m3hrzd.ir
+  type: ss
 - cipher: aes-256-gcm
-  name: 节点-060
+  name: 节点-070
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.72
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 节点-061
+  name: 节点-071
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.36
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 节点-062
+  name: 节点-072
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.81
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 节点-063
+  name: 节点-073
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.63
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 节点-064
+  name: 节点-074
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.99
   type: ss
-  udp: true
 - cipher: aes-256-gcm
-  name: 节点-065
+  name: 节点-075
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.90
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 节点-066
+  name: 节点-076
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.45
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 节点-067
+  name: 节点-077
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.27
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 节点-068
+  name: 节点-078
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.54
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 节点-069
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 149.50.215.234
-  type: ss
-- cipher: aes-256-gcm
-  name: 节点-070
+  name: 节点-079
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 185.164.175.81
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 节点-080
+  password: mx81glqbtlwuhcjo
+  port: 8080
+  server: 57.131.4.13
+  type: ss
 - cipher: aes-256-gcm
-  name: 节点-071
+  name: 节点-081
   password: BeaUf9c0AEWH40Pu
   port: 8388
   server: 154.36.158.197
   type: ss
+  udp: true
 - cipher: aes-256-gcm
-  name: 节点-072
+  name: 节点-082
   password: 3eOFeNssde7PYYMv
-  port: 80
+  port: 443
   server: 84.247.155.196
   type: ss
 - cipher: aes-128-gcm
-  name: 节点-073
+  name: 节点-083
   password: shadowsocks
   port: 443
   server: 149.22.87.204
   type: ss
 - cipher: aes-128-gcm
-  name: 节点-074
-  password: shadowsocks
-  port: 443
-  server: 149.22.87.240
-  type: ss
-- cipher: aes-128-gcm
-  name: 节点-075
+  name: 节点-084
   password: shadowsocks
   port: 443
   server: 149.22.87.241
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 节点-085
+  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
+  port: 8443
+  server: 3.39.252.190
+  type: ss
+  udp: true
 - cipher: aes-256-gcm
-  name: 节点-076
+  name: 节点-086
   password: BWyPPTusFKhGgzKh
   port: 8388
   server: 64.177.90.30
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 节点-077
+  name: 节点-087
+  password: xMfen2bSpUYyP3GjXHP_kqLA19L9r1cj
+  port: 8090
+  server: 153.56.229.84
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 节点-088
   password: DYVqFDnYoMquRQunXC1xd2FyuDhd7JWs5jtf2eb7VkKLzXgZv8pt8gY1e91TT71V762zRX7MWW4HmjavanYdUF9bij8gG8AP
   port: 47195
   server: 104.222.183.180
   type: ss
-- cipher: aes-256-gcm
-  name: 节点-078
-  password: FJo_V-KMvriDekN0CYkdNH0C
-  port: 1080
-  server: 177.202.64.67
-  type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 节点-079
+  name: 节点-089
   password: 29ZZXVa34x7sC48w9FKQ54UKHiJJGTVgKFppBRgviLrVCAYVVyKZdD3obbpjCyk31V5b2G2d7xzqmaPBFdcheCVB9UQ4ZghF
   port: 51628
   server: 156.67.120.205
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 节点-080
+  name: 节点-090
   password: kXN5NlzjYJEQG8ofMHwlzE
   port: 12576
   server: 77.221.155.75
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 节点-081
+  name: 节点-091
   password: hCgbUnMaoAfSgvE8IKdnGu
   port: 24759
   server: 77.221.132.206
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 节点-082
+  name: 节点-092
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   port: 990
   server: 185.213.23.63
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 节点-083
+  name: 节点-093
+  password: eetk7pw
+  port: 443
+  server: 54.36.174.140
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 节点-094
   password: U83u9OGpvSatIUW7LsWffr
   port: 64546
   server: 194.68.44.42
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 节点-084
+  name: 节点-095
   password: QFWzCw2uX9B9i6qAYeFBIE
   port: 443
   server: bogging-eyeteeth-fly.freesocks.work
   type: ss
+- cipher: aes-256-gcm
+  name: 节点-096
+  password: NTiHBg64fsY8u8DbGrtypD9gPGSL386p
+  port: 18443
+  server: 185.22.153.117
+  type: ss
 - cipher: aes-128-gcm
-  name: 节点-085
+  name: 节点-097
   password: 8722de56b6c0b3f6a4d01cf91c07e6aa
   port: 13108
   server: 38.60.223.125
   type: ss
 - cipher: aes-256-gcm
-  name: 节点-086
+  name: 节点-098
   password: cCMJgJTA3BA489YUYrFq7XHXSiSpWlLa
   port: 18443
   server: 46.17.47.58
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 节点-087
+  name: 节点-099
+  password: VVlAff77CnAU43Aoc5j15Y
+  port: 5112
+  server: 90.156.203.62
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 节点-100
   password: 2e555e46dbc421452416834962fd014f
   port: 8388
   server: 62.182.193.228
   type: ss
 - cipher: aes-256-gcm
-  name: 节点-088
+  name: 节点-101
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 138.199.55.243
   type: ss
 - cipher: aes-256-gcm
-  name: 节点-089
+  name: 节点-102
   password: AxIYWtskJWIIaefW
   port: 8388
   server: 70.34.212.124
   type: ss
 - cipher: aes-256-gcm
-  name: 节点-090
+  name: 节点-103
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 51.79.228.131
   type: ss
 - cipher: aes-256-gcm
-  name: 节点-091
+  name: 节点-104
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 15.235.182.183
   type: ss
 - cipher: aes-256-gcm
-  name: 节点-092
+  name: 节点-105
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 15.235.164.133
   type: ss
 - cipher: aes-256-gcm
-  name: 节点-093
+  name: 节点-106
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 149.88.106.74
   type: ss
 - cipher: aes-256-gcm
-  name: 节点-094
+  name: 节点-107
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 149.88.107.74
   type: ss
 - cipher: aes-256-gcm
-  name: 节点-095
+  name: 节点-108
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 149.88.107.47
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 节点-096
+  name: 节点-109
+  password: xMfen2bSpUYyP3GjXHP_kqLA19L9r1cj
+  port: 545
+  server: 153.56.229.84
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 节点-110
   password: ijoUwfdnkz7mX4pWdkSpmEixTZCt2TRm1JDr4BSaBAWkLxYGoXBHXadFKY5D5ZfoVTwqsx46jCmEUDnQUizJDYrM7B5anhnu
   port: 42878
   server: 23.230.52.119
   type: ss
-- cipher: aes-128-gcm
-  name: 节点-097
-  password: 2f0c7e37-2534-48dc-9615-d85ae800c41f
-  port: 12961
-  server: mm.good2026.com
-  type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 节点-098
+  name: 节点-111
   password: aduB9HGxQHjA2SBMRjkHX6
   port: 443
   server: 102.37.156.224
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 节点-099
+  name: 节点-112
   password: Xsy8Ox4yOV3xLlpxtjzs3X
   port: 16233
   server: 102.133.165.160
   type: ss
-- name: 节点-100
+- name: 节点-113
   network: tcp
   password: d9064589-74af-432a-9390-5d8a9da281bf
   port: 20123
@@ -718,7 +797,7 @@ proxies:
   skip-cert-verify: true
   sni: hk.catxstar.com
   type: trojan
-- name: 节点-101
+- name: 节点-114
   network: tcp
   password: d9064589-74af-432a-9390-5d8a9da281bf
   port: 20086
@@ -726,123 +805,116 @@ proxies:
   skip-cert-verify: true
   sni: hk.catxstar.com
   type: trojan
-- name: 节点-102
+- name: 节点-115
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 45.63.30.142
   sni: connectwithemployerstohireyouridealteam.com
   type: trojan
-- name: 节点-103
+- name: 节点-116
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 216.238.104.154
+  sni: findtemporaryworkandfreelancerprojectsonlineplatform.com
   type: trojan
-- name: 节点-104
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 216.152.147.74
-  type: trojan
-- name: 节点-105
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 216.152.147.93
-  sni: connectingpeoplewithgreatjobs.com
-  type: trojan
-- name: 节点-106
+- name: 节点-117
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 216.152.147.201
   sni: resources.connectingpeoplewithgreatjobs.com
   type: trojan
-- name: 节点-107
+- name: 节点-118
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 216.152.147.93
+  type: trojan
+- name: 节点-119
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 216.152.147.79
   skip-cert-verify: false
   sni: blog.connectingpeoplewithgreatjobs.com
   type: trojan
-- name: 节点-108
-  network: ws
-  password: humanity
-  port: 443
-  server: www.speedtest.org
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: 节点-109
-  network: tcp
+- name: 节点-120
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 208.69.78.33
   sni: courses.yourultimateprofessionalcareerhub.com
   type: trojan
-- name: 节点-110
+- name: 节点-121
+  password: b7795ce8-3863-4292-adfc-9c0a7b847774
+  port: 443
+  server: t2w2t2w2.bpca2026.top
+  skip-cert-verify: true
+  sni: t2w2t2w2.bpca2026.top
+  type: trojan
+- name: 节点-122
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 208.69.78.158
   type: trojan
-- name: 节点-111
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 208.69.78.29
-  type: trojan
-- name: 节点-112
+- name: 节点-123
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 64.176.7.205
   sni: advanceyouremploymentskillsandcareerdevelopmenthub.com
   type: trojan
-- name: 节点-113
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 66.163.118.244
-  type: trojan
-- name: 节点-114
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 66.163.118.62
-  type: trojan
-- name: 节点-115
+- name: 节点-124
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 66.163.118.166
   type: trojan
-- name: 节点-116
+- name: 节点-125
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 66.163.118.62
+  type: trojan
+- name: 节点-126
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 66.163.118.244
+  type: trojan
+- name: 节点-127
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 66.163.118.40
   type: trojan
-- name: 节点-117
+- name: 节点-128
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 158.247.253.243
   skip-cert-verify: true
   sni: connectgraduateswithjobopeningsandgrowprofessionally.com
   type: trojan
-- name: 节点-118
+- name: 节点-129
   password: 5931134d1cde66bf83a54acdfebe7ab2
   port: 443
   server: 47.250.84.25
   type: trojan
-- name: 节点-119
+- name: 节点-130
+  password: d7563108-615c-4338-a7bd-77f359869a4a
+  port: 20103
+  server: sclass-01.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
+- name: 节点-131
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 66.163.127.225
   sni: cdn.indyourperfectremotetechjobfromthecomfortofhome.com
   type: trojan
-- name: 节点-120
+- name: 节点-132
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 66.163.127.215
   type: trojan
-- name: 节点-121
+- name: 节点-133
   password: FkQH0Q5EFneySv20Qj3yoArD2GSb2XZF
   port: 443
   server: 95.143.196.97
   type: trojan
-- name: 节点-122
+- name: 节点-134
   network: ws
   password: f426d3c9-fb43-43c0-868b-898dfa451a74
   port: 443
@@ -854,136 +926,77 @@ proxies:
     headers:
       Host: likejennie.pages.dev
     path: '%2F'
-- name: 节点-123
+- name: 节点-135
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 15.235.184.127
   skip-cert-verify: false
   sni: exploredigitaljobplatformandfindonlinework.com
   type: trojan
-- name: 节点-124
+- name: 节点-136
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 149.28.130.108
   sni: searchcreativejobsandshowcaseyourartistictalents.com
   type: trojan
-- name: 节点-125
+- name: 节点-137
   password: d7563108-615c-4338-a7bd-77f359869a4a
   port: 20027
   server: sclass-b1.catcat321.com
-  skip-cert-verify: true
   sni: hk.catxstar.com
   type: trojan
-- name: 节点-126
+- name: 节点-138
   password: d7563108-615c-4338-a7bd-77f359869a4a
   port: 20028
   server: sclass-b1.catcat321.com
   sni: hk.catxstar.com
   type: trojan
-- cipher: aes-256-gcm
-  name: 节点-127
-  password: 3411b0af-589e-40f3-b8d5-d2e04ce19fa9
-  port: 21191
-  server: c17b957c5a76ec76.lebufflonfermegroup.us
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 节点-128
-  password: 3411b0af-589e-40f3-b8d5-d2e04ce19fa9
-  port: 40011
-  server: c17b957c5a76ec76.lebufflonfermegroup.us
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 节点-129
-  password: 3411b0af-589e-40f3-b8d5-d2e04ce19fa9
-  port: 35000
-  server: c17b957c5a76ec76.lebufflonfermegroup.us
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 节点-130
-  password: 3411b0af-589e-40f3-b8d5-d2e04ce19fa9
-  port: 40010
-  server: c17b957c5a76ec76.lebufflonfermegroup.us
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 节点-131
-  password: byX4-DV0C42PLFTWQhMTAQ63mZ8qrDRB
-  port: 1352
-  server: dns24.m3hrzd.ir
-  type: ss
-  udp: true
-- alpn:
-  - ''
-  alterId: 0
-  cipher: auto
-  name: 节点-132
-  network: ws
-  port: 36703
-  server: 47.244.120.197
+- client-fingerprint: chrome
+  name: 节点-139
+  network: tcp
+  password: mobin-trojan-pass-2026
+  port: 8443
+  server: 3.133.112.167
   skip-cert-verify: true
-  tls: false
-  type: vmess
+  type: trojan
   udp: true
-  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
-  ws-opts:
-    path: /arki
-- alpn:
-  - ''
-  alterId: 0
+- alterId: 0
   cipher: auto
-  name: 节点-133
-  network: ws
-  port: 23026
-  server: 47.244.120.197
-  servername: 47.244.120.197
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: b9de1bc9-baa7-41ac-86f7-ccd59695cb21
-  ws-opts:
+  http-opts:
     headers:
-      Host: 47.244.120.197
-    path: /arki
-- alpn:
-  - ''
-  alterId: 0
-  cipher: auto
-  name: 节点-134
-  network: ws
-  port: 44867
-  server: 47.244.120.197
+      Host:
+      - down-cdn.dingtalk.com
+    method: GET
+    path:
+    - /QQqun-737805443
+  name: 节点-140
+  network: http
+  port: 52080
+  server: 23.165.200.150
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 845e6b08-2919-4290-ade0-5dc7dcea59ca
-  ws-opts:
-    path: /arki
-- cipher: xchacha20-ietf-poly1305
-  name: 节点-135
-  password: tfvsLbsXV9PdNmxPA4zaWr7EOezLjv3dXejQq2Y5sXA=
-  port: 36542
-  server: dlc.deltapc.digital
-  type: ss
+  uuid: 672cdade-bb05-4c86-b578-e5d09b79524a
 - cipher: aes-256-gcm
-  name: 节点-136
+  name: 节点-141
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 202.50.253.18
   type: ss
   udp: true
-- name: 节点-137
-  password: d7563108-615c-4338-a7bd-77f359869a4a
-  port: 20103
-  server: sclass-01.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
-- name: 节点-138
+- cipher: chacha20-ietf-poly1305
+  name: 节点-142
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (Telegram🇨🇳 @VPNine1)af2501f:110406
+    mode: tls
+  port: 2377
+  server: 13.231.100.94
+  type: ss
+  udp: true
+- name: 节点-143
   password: d9064589-74af-432a-9390-5d8a9da281bf
   port: 20051
   server: sclass-c2.catcat321.com
@@ -992,26 +1005,30 @@ proxies:
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 节点-139
-  password: xMfen2bSpUYyP3GjXHP_kqLA19L9r1cj
-  port: 8090
-  server: 153.56.229.84
+  name: 节点-144
+  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
+  port: 8443
+  server: 18.143.176.12
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 节点-140
-  password: xMfen2bSpUYyP3GjXHP_kqLA19L9r1cj
-  port: 545
-  server: 153.56.229.84
-  type: ss
+- alpn:
+  - ''
+  alterId: 0
+  cipher: auto
+  name: 节点-145
+  network: ws
+  port: 443
+  server: US122201.ssgreen.org
+  servername: US122201.ssgreen.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 节点-141
-  password: byX4-DV0C42PLFTWQhMTAQ63mZ8qrDRB
-  port: 1349
-  server: dns24.m3hrzd.ir
-  type: ss
-  udp: true
+  uuid: 930b4722-5d1d-4c74-a9a1-694d0e9a69af
+  ws-opts:
+    headers:
+      Host: US122201.ssgreen.org
+    path: /wes
 proxy-groups:
 - name: AUTO
   type: url-test
@@ -1157,6 +1174,10 @@ proxy-groups:
   - 节点-139
   - 节点-140
   - 节点-141
+  - 节点-142
+  - 节点-143
+  - 节点-144
+  - 节点-145
   url: https://www.gstatic.com/generate_204
   interval: 300
   tolerance: 80
@@ -1306,6 +1327,10 @@ proxy-groups:
   - 节点-139
   - 节点-140
   - 节点-141
+  - 节点-142
+  - 节点-143
+  - 节点-144
+  - 节点-145
 - name: GLOBAL
   type: select
   proxies: *id001
